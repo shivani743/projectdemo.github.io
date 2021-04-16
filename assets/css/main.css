@@ -11260,3 +11260,16 @@ input.main-search-input:-ms-input-placeholder {
     background: #fff;
     box-shadow: 0px 1px 9px #0000002b;
 }
+
+.align-center {
+    text-align: center;
+}
+
+.roof-heading {
+    font-weight: 100;
+}
+
+.solar {
+    font-weight: 700;
+    color: var(--green);
+}

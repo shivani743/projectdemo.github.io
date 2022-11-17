@@ -724,4 +724,5 @@ label.valid:after {
   border: 2px dotted #CCCCCC!important;
   border-radius: 15px;
   cursor: crosshair;
+  width: 100%!important;
 }

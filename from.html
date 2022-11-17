@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emergency Room Admission Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bd-wizard.css">
+</head>
+
+<body>
+    <main class="my-5">
+        <div class="container">
+            <div id="wizard">
+                <h3>
+                    <div class="media">
+                        <div class="bd-wizard-step-icon"><i class="mdi mdi-account-outline"></i></div>
+                        <div class="media-body">
+                            <div class="bd-wizard-step-title">General Information</div>
+                            <div class="bd-wizard-step-subtitle">Step 1</div>
+                        </div>
+                    </div>
+                </h3>
+                <section>
+                    <div class="content-wrapper">
+                        <div class="container">
+
+                            <h4 class="section-heading">Emergency Room Admission Form</h4>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label>Select Date: </label>
+                                    <div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
+                                        <input class="form-control" type="text" readonly />
+                                        <span class="input-group-addon"><i
+                                                class="glyphicon glyphicon-calendar"></i></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-4">
+                                    <label>First Name</label>
+                                    <input type="text" name="firstName" id="firstName" class="form-control"
+                                        placeholder="First Name">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>Last Name</label>
+                                    <input type="text" name="lastName" id="lastName" class="form-control"
+                                        placeholder="Last Name">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>ID</label>
+                                    <input type="text" name="" id="" class="form-control" placeholder="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-4">
+                                    <label for="dob">Date of Birth</label>
+                                    <input type="text" name="" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="phoneNumber">Phone Number</label>
+                                    <input type="text" name="phoneNumber" id="phoneNumber" class="form-control"
+                                        placeholder="Phone Number">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="emailAddress">Email Address</label>
+                                    <input type="email" name="emailAddress" id="emailAddress" class="form-control"
+                                        placeholder="Email Address">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="address">Address</label>
+                                    <input type="" name="" id="" class="form-control" placeholder="Street Address">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="city">City</label>
+                                    <input type="text" name="" class="form-control" placeholder="City">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="state">State</label>
+                                    <input type="text" name="state" id="state" class="form-control" placeholder="State">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="zipcode">Postal / Zip Code</label>
+                                    <input type="email" name="" id="" class="form-control"
+                                        placeholder="Postal / Zip Code">
+                                </div>
+                            </div>
+                            <h4 class="section-heading">In case of emergency</h4>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="name">Name</label>
+                                    <input type="" name="" id="" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="city">City</label>
+                                    <input type="text" name="" class="form-control" placeholder="City">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="areacode">Area Code</label>
+                                    <input type="text" name="areacode" id="areacode" class="form-control"
+                                        placeholder="Area Code">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="Relationship">Relationship</label>
+                                    <input type="relationship" name="" id="" class="form-control"
+                                        placeholder="Relationship">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <h3>
+                    <div class="media">
+                        <div class="bd-wizard-step-icon"><i class="mdi mdi-bank"></i></div>
+                        <div class="media-body">
+                            <div class="bd-wizard-step-title">Vital Signs</div>
+                            <div class="bd-wizard-step-subtitle">Step 2</div>
+                        </div>
+                    </div>
+                </h3>
+                <section>
+                    <div class="content-wrapper">
+                        <div class="container">
+                            <h4 class="section-heading">Emergency Room Admission Form </h4>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label>Heart rate</label>
+                                    <input type="text" name="" id="" class="form-control" placeholder="ex:23">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>Blood pressure</label>
+                                    <input type="text" name="" id="" class="form-control" placeholder="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label>Respiratory rate</label>
+                                    <input type="text" name="" id="" class="form-control" placeholder="ex:23">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>Temperature</label>
+                                    <input name="" id="" class="form-control" placeholder="ex:23">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>Oxigen saturation</label>
+                                    <input name="" id="" class="form-control" placeholder="ex:23">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>Weight</label>
+                                    <input name="" id="" class="form-control" placeholder="ex:23">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>Height</label>
+                                    <input name="" id="" class="form-control" placeholder="ex:23">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <h3>
+                    <div class="media">
+                        <div class="bd-wizard-step-icon"><i class="mdi mdi-account-check-outline"></i></div>
+                        <div class="media-body">
+                            <div class="bd-wizard-step-title">Medical History </div>
+                            <div class="bd-wizard-step-subtitle">Step 3</div>
+                        </div>
+                    </div>
+                </h3>
+                <section>
+                    <div class="content-wrapper">
+                        <div class="container">
+                            <h4 class="section-heading">Reason for Current Visit </h4>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label>What Is the primary problem?</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label>What are the symptoms?</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label>Have you ever had a similar problem?</label>
+                                    <br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Yes</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">No</label>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label>If Yes, how long ago?</label>
+                                    <input type="text" name="" id="" class="form-control" placeholder="">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label>Are there any other problems we should be aware of today?</label>
+                                    <br>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Yes</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">No</label>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label>If Yes, list problems</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <h3>
+                    <div class="media">
+                        <div class="bd-wizard-step-icon"><i class="mdi mdi-emoticon-outline"></i></div>
+                        <div class="media-body">
+                            <div class="bd-wizard-step-title">Signature & Submit</div>
+                            <div class="bd-wizard-step-subtitle">Step 4</div>
+                        </div>
+                    </div>
+                </h3>
+                <section>
+                    <div class="content-wrapper">
+                        <label class="form-check-label">
+                            <!-- Content -->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Signature
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <canvas id="sig-canvas" width="620" height="160"
+                                            style="border: 2px dotted #CCCCCC!important;">
+                                            Get a better browser, bro.
+                                        </canvas>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12"><br>
+                                        <button class="btn btn-primary" id="sig-submitBtn">Submit Signature</button>
+                                        <button class="btn btn-danger" id="sig-clearBtn">Clear Signature</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/jquery.steps.min.js"></script>
+    <script src="js/bd-wizard.js"></script>
+    <script>
+        $(function () {
+            $("#datepicker").datepicker({
+                autoclose: true,
+                todayHighlight: true
+            }).datepicker('update', new Date());
+        });
+
+
+        (function () {
+            window.requestAnimFrame = (function (callback) {
+                return window.requestAnimationFrame ||
+                    window.webkitRequestAnimationFrame ||
+                    window.mozRequestAnimationFrame ||
+                    window.oRequestAnimationFrame ||
+                    window.msRequestAnimaitonFrame ||
+                    function (callback) {
+                        window.setTimeout(callback, 1000 / 60);
+                    };
+            })();
+
+            var canvas = document.getElementById("sig-canvas");
+            var ctx = canvas.getContext("2d");
+            ctx.strokeStyle = "#222222";
+            ctx.lineWidth = 4;
+
+            var drawing = false;
+            var mousePos = {
+                x: 0,
+                y: 0
+            };
+            var lastPos = mousePos;
+
+            canvas.addEventListener("mousedown", function (e) {
+                drawing = true;
+                lastPos = getMousePos(canvas, e);
+            }, false);
+
+            canvas.addEventListener("mouseup", function (e) {
+                drawing = false;
+            }, false);
+
+            canvas.addEventListener("mousemove", function (e) {
+                mousePos = getMousePos(canvas, e);
+            }, false);
+
+            // Add touch event support for mobile
+            canvas.addEventListener("touchstart", function (e) {
+
+            }, false);
+
+            canvas.addEventListener("touchmove", function (e) {
+                var touch = e.touches[0];
+                var me = new MouseEvent("mousemove", {
+                    clientX: touch.clientX,
+                    clientY: touch.clientY
+                });
+                canvas.dispatchEvent(me);
+            }, false);
+
+            canvas.addEventListener("touchstart", function (e) {
+                mousePos = getTouchPos(canvas, e);
+                var touch = e.touches[0];
+                var me = new MouseEvent("mousedown", {
+                    clientX: touch.clientX,
+                    clientY: touch.clientY
+                });
+                canvas.dispatchEvent(me);
+            }, false);
+
+            canvas.addEventListener("touchend", function (e) {
+                var me = new MouseEvent("mouseup", {});
+                canvas.dispatchEvent(me);
+            }, false);
+
+            function getMousePos(canvasDom, mouseEvent) {
+                var rect = canvasDom.getBoundingClientRect();
+                return {
+                    x: mouseEvent.clientX - rect.left,
+                    y: mouseEvent.clientY - rect.top
+                }
+            }
+
+            function getTouchPos(canvasDom, touchEvent) {
+                var rect = canvasDom.getBoundingClientRect();
+                return {
+                    x: touchEvent.touches[0].clientX - rect.left,
+                    y: touchEvent.touches[0].clientY - rect.top
+                }
+            }
+
+            function renderCanvas() {
+                if (drawing) {
+                    ctx.moveTo(lastPos.x, lastPos.y);
+                    ctx.lineTo(mousePos.x, mousePos.y);
+                    ctx.stroke();
+                    lastPos = mousePos;
+                }
+            }
+
+            // Prevent scrolling when touching the canvas
+            document.body.addEventListener("touchstart", function (e) {
+                if (e.target == canvas) {
+                    e.preventDefault();
+                }
+            }, false);
+            document.body.addEventListener("touchend", function (e) {
+                if (e.target == canvas) {
+                    e.preventDefault();
+                }
+            }, false);
+            document.body.addEventListener("touchmove", function (e) {
+                if (e.target == canvas) {
+                    e.preventDefault();
+                }
+            }, false);
+
+            (function drawLoop() {
+                requestAnimFrame(drawLoop);
+                renderCanvas();
+            })();
+
+            function clearCanvas() {
+                canvas.width = canvas.width;
+            }
+
+            // Set up the UI
+            var sigText = document.getElementById("sig-dataUrl");
+            var sigImage = document.getElementById("sig-image");
+            var clearBtn = document.getElementById("sig-clearBtn");
+            var submitBtn = document.getElementById("sig-submitBtn");
+            clearBtn.addEventListener("click", function (e) {
+                clearCanvas();
+                sigText.innerHTML = "Data URL for your signature will go here!";
+                sigImage.setAttribute("src", "");
+            }, false);
+            submitBtn.addEventListener("click", function (e) {
+                var dataUrl = canvas.toDataURL();
+                sigText.innerHTML = dataUrl;
+                sigImage.setAttribute("src", dataUrl);
+            }, false);
+
+        })();
+    </script>
+
+</body>
+
+</html>

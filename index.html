@@ -1,1449 +1,1501 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-   <meta charset="utf-8">
-   <meta http-equiv="x-ua-compatible" content="ie=edge">
-   <title>Modern Homeo</title>
-   <meta name="robots" content="noindex, follow" />
-   <meta name="description" content="">
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyberark Mock Interview</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-   <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="css/bootstrap.min.css">
-   <!-- Fontawesome -->
-   <link rel="stylesheet" href="css/fontawesome.css">
-   <!-- Flaticon -->
-   <link rel="stylesheet" href="css/flaticon.css">
-   <!-- Doctery Icons -->
-   <link rel="stylesheet" href="css/pbminfotech-base-icons.css">
-   <!-- Themify Icons -->
-   <link rel="stylesheet" href="css/themify-icons.css">
-   <!-- Slick -->
-   <link rel="stylesheet" href="css/swiper.min.css">
-   <!-- Magnific -->
-   <link rel="stylesheet" href="css/magnific-popup.css">
-   <!-- AOS -->
-   <!-- <link rel="stylesheet" href="css/aos.css"> -->
-   <!-- Shortcode CSS -->
-   <link rel="stylesheet" href="css/shortcode.css">
-   <!-- Base CSS -->
-   <link rel="stylesheet" href="css/base.css">
-   <!-- Style CSS -->
-   <link rel="stylesheet" href="css/style.css">
-   <!-- Responsive CSS -->
-   <link rel="stylesheet" href="css/responsive.css">
-   <!-- REVOLUTION STYLE SHEETS -->
-   <!-- <link rel="stylesheet" type="text/css" href="revolution/rs6.css"> -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link
-      href="https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,600&family=Tenor+Sans&display=swap"
-      rel="stylesheet">
 </head>
+<style>
+    body {
+        font-family: 'Space Grotesk', sans-serif !important;
+    }
+
+    .bg-primary {
+        background-color: #274673 !important;
+    }
+
+    .dropbtn2 {
+        background: none;
+    }
+
+    .navbar-brand {
+
+        font-size: 17px;
+
+        font-weight: 100;
+        white-space: normal;
+    }
+
+    .content {
+        margin-top: 44px;
+    }
+
+    .left-title {
+        width: 80px;
+        color: #FFF;
+        font-size: 18px;
+        float: left;
+    }
+
+    .right-title {
+        width: 150px;
+        text-align: right;
+        float: right;
+        color: #FFF;
+    }
+
+    .quiz-body {
+        margin-top: 15px;
+        padding-bottom: 50px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .quiz-body {
+            height: 500px;
+            overflow-x: scroll;
+       
+    }
+}
+
+    .option-block-container {
+        margin-top: 20px;
+    }
+
+    .option-block {
+        padding: 10px 0px;
+        background: rgb(255, 255, 255);
+        border-bottom: 1px solid #eeeeee;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .result-question {
+        font-weight: bold;
+    }
+
+    .c-wrong {
+        margin-left: 20px;
+        color: #FF0000;
+    }
+
+    .c-correct {
+        margin-left: 20px;
+        color: green;
+    }
+
+    .last-row {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+    }
+
+    .res-header {
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    }
+
+    .form-check .form-check-input {
+        float: left;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    
+#countdown {
+  font-size: 18px;
+}
+</style>
 
 <body>
-   <!-- page wrapper -->
-   <div class="page-wrapper">
-      <!-- Header Main Area -->
-      <header class="site-header header-style-1">
-         <div class="pre-header">
+
+    <section>
+        <nav class="navbar navbar-expand-lg bg-primary">
             <div class="container">
-               <div class="d-md-flex justify-content-between align-items-center">
-                  <div class="d-flex align-items-center justify-content-center">
-                     <ul class="nav pbmit-contact-info justify-content-center justify-content-md-start">
-                        <li class="nav-item me-3">
-                           <i class="pbmit-base-icon-marker me-1 pbmit-color-global"></i> +1 (088) 456 888 (24/7)
-                        </li>
-                        <li>
-                           <i class="pbmit-base-icon-contact pbmit-color-global me-2"></i>66 Broklyn Street, New York
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="d-flex align-items-center justify-content-center">
-                     <ul class="nav pbmit-link">
-                        <li class="nav-item"><a href="#">Media </a></li>
-                        <li class="nav-item"><a href="#">Faq</a></li>
-                        <li class="nav-item"><a href="#">Services</a></li>
-                        <li class="nav-item text-decoration-underline">
-                           <a href="#" data-bs-toggle="modal" data-bs-target="#login-modal">Login/Register</a>
+                <a class="navbar-brand text-white" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-left">
+                        <path d="M6 8L2 12L6 16" />
+                        <path d="M2 12H22" />
+                    </svg> &nbsp;Mock Interview Question <span class="text-white"> | </span> <span><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-help-circle">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+                            <path d="M12 17h.01" />
+                        </svg>&nbsp; Total Question: 75</span> <span class="text-white"> | </span><span
+                        class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                            viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round"
+                            stroke-linejoin="round" class="lucide lucide-timer-reset">
+                            <path d="M10 2h4" />
+                            <path d="M12 14v-4" />
+                            <path d="M4 13a8 8 0 0 1 8-7 8 8 0 1 1-5.3 14L4 17.6" />
+                            <path d="M9 17H4v5" />
+                        </svg> Total Time: <span id="countdown" style="font-weight: bold;"></span> </span>
 
-                        </li>
-                     </ul>
-                     <ul class="list-unstyled d-flex">
-                        <li> <a class="px-2" href="#"><i class="pbmit-base-icon-facebook-squared"></i></a> </li>
-                        <li> <a class="px-2" href="#"><i class="pbmit-base-icon-twitter"></i></a> </li>
-                        <li> <a class="ps-2" href="#"><i class="pbmit-base-icon-linkedin-squared"></i></a> </li>
-                     </ul>
-                  </div>
-               </div>
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <span class="text-white"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-user-round-check">
+                                <path d="M2 21a8 8 0 0 1 13.292-6" />
+                                <circle cx="10" cy="8" r="5" />
+                                <path d="m16 19 2 2 4-4" />
+                            </svg> &nbsp;Shashank Shekhar</span>
+                    </form>
+                </div>
             </div>
-         </div>
-         <div class="site-header-menu">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="megamenu-wrap">
-                        <div class="d-flex align-items-center">
-                           <div class="site-branding flex-grow-1">
-                              <a href="index.html">
-                                 <!-- <img class="logo-img" alt="doctery" src="images/logo-white.png" />
-                                 <img class="logo-dark" alt="doctery" src="images/logo-dark.png" /> -->
-                                 <h2 class="text-white">ModernHome</h2>
-                              </a>
-                           </div>
-                           <div class="site-navigation ml-auto">
-                              <nav class="main-menu navbar-expand-xl navbar-light">
-                                 <div class="navbar-header">
-                                    <!-- Toggle Button -->
-                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                       aria-expanded="false" aria-label="Toggle navigation">
-                                       <i class="pbmit-base-icon-menu-1"></i>
-                                    </button>
-                                 </div>
-                                 <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
-                                    <ul class="navigation clearfix">
-                                       <li class="active">
-                                          <a href="index.html">Home</a>
-                                          <!-- <ul>
-                                                <li class="active"><a href="index.html">Home page 01</a></li>
-                                                <li><a href="index-02.html">Home page 02</a></li>
-                                                <li><a href="index-03.html">Home page 03</a></li>
-                                             </ul> -->
-                                       <li class="dropdown megamenu"><a href="#">Pages</a>
-                                          <ul>
-                                             <li><a href="#">Pages</a>
-                                                <ul>
-                                                   <li><a href="about-us.html">About Us</a></li>
-                                                   <li><a href="about-us-2.html">About Us 2</a></li>
-                                                   <li><a href="our-history.html">Our History</a></li>
-                                                   <li><a href="our-plans.html">Our Plans</a></li>
-                                                </ul>
-                                             </li>
-                                             <li><a href="#">Quick Links</a>
-                                                <ul>
-                                                   <li><a href="our-plans.html">Our Plans</a></li>
-                                                   <li><a href="our-team-member.html">Our Team Member</a></li>
-                                                   <li><a href="doctor-single.html">Doctor Single</a></li>
-                                                   <li><a href="faq.html">Faq</a></li>
-                                                </ul>
-                                             </li>
-                                             <li><a href="#">Services</a>
-                                                <ul>
-                                                   <li><a href="service-details.html">Hematology </a></li>
-                                                   <li><a href="service-details.html">Neurology </a></li>
-                                                   <li><a href="service-details.html">Gastrologic </a></li>
-                                                   <li><a href="service-details.html">Orthopedic </a></li>
-                                                </ul>
-                                             </li>
-                                             <li><a href="#">Useful Links </a>
-                                                <ul>
-                                                   <li><a href="our-history.html">Our History</a></li>
-                                                   <li><a href="services.html">Services</a></li>
-                                                   <li><a href="projects.html">Projects</a></li>
-                                                   <li><a href="project-details.html">Project Detail</a></li>
-                                                </ul>
-                                             </li>
-                                          </ul>
-                                       </li>
-                                       <li class="dropdown">
-                                          <a href="services.html">Services</a>
-                                          <ul>
-                                             <li class="dropdown"><a href="service-details.html">Service Detail</a></li>
-                                          </ul>
-                                       <li class="dropdown">
-                                          <a href="projects.html">Projects</a>
-                                          <ul>
-                                             <li><a href="project-details.html">Project Detail</a></li>
-                                          </ul>
-                                       <li class="dropdown">
-                                          <a href="#">Blog</a>
-                                          <ul>
-                                             <li><a href="blog-classic.html">Blog Classic</a></li>
-                                             <li><a href="blog-grid.html">Blog Grid</a></li>
-                                             <li><a href="blog-details.html">Blog Details</a></li>
-                                          </ul>
-                                       <li><a href="contact-us.html">Contact</a></li>
-                                    </ul>
-                                 </div>
-                              </nav>
-                           </div>
-                           <div class="menu-right-box d-flex align-items-center">
-                              <div class="header-button">
-                                 <a href="contact-us.html" class="pbmit-btn">
-                                    <i class="pbmit-base-icon-appointment me-1"></i> Make Appointment
-                                 </a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-
-      </header>
-      <!-- Header Main Area End Here -->
-
-      <!-- Page Content -->
-      <div class="page-content">
-         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                  aria-current="true" aria-label="Slide 1"></button>
-               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                  aria-label="Slide 2"></button>
-               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                  aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-               <div class="">
-                  <div class="carousel-item active" data-bs-interval="10000"
-                     style="background-image: url('images/bg/main-banner2.jpg');     background-size: cover;">
-                     <div class="container ps-xl-5">
-                        <div class="align-items-sm-center d-sm-flex row">
-                           <div class="col-lg-8">
-                              <h1 class="fw-semibold">Create Amazing Landing <br>Page With <span
-                                    class="text-primary">Nody</span></h1><br>
-                              <p class="text-secondary fw-lighter">Nemo enim ipsam voluptatem quia voluptas sit
-                                 aspernatur <br>aut odit aut fugit, sed quia
-                                 consequuntur magni dolores eos qui ratione sequinesciunt.</p>
-                              <button type="button" class="btn btn-dark">Know More</button>
-
-                           </div>
-                           <div class="col-md-4" style="height: 500px;">
-
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000"
-                     style="background-image: url('images/bg/main-banner3.jpg');     background-size: cover;">
-                     <div class="container ps-xl-5 ">
-                        <div class="align-items-sm-center d-sm-flex row">
-                           <div class="col-lg-8">
-                              <h1 class="fw-semibold">Create Amazing Landing <br>Page With <span
-                                    class="text-primary">Nody</span></h1><br>
-                              <p class="text-secondary fw-lighter">Nemo enim ipsam voluptatem quia voluptas sit
-                                 aspernatur <br>aut odit aut fugit, sed quia
-                                 consequuntur magni dolores eos qui ratione sequinesciunt.</p>
-                              <button type="button" class="btn btn-dark">Know More</button>
-
-                           </div>
-                           <div class="col-md-4" style="height: 500px;">
-
-                           </div>
-
-                        </div>
-                     </div>
-                  </div>
-
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-                     data-bs-slide="prev">
-                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                     <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-                     data-bs-slide="next">
-                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                     <span class="visually-hidden">Next</span>
-                  </button>
-               </div>
-            </div>
-         </div>
+        </nav>
+    </section>
 
 
+    <div class="content">
+        <div class="container">
 
-         <!-- Team Start -->
-         <section class="section-lg home3-team-section-bg">
-            <div class="container">
-               <div class="row ">
-                  <div class="col-md-6 col-lg-3">
-                     <div class="pbmit-ihbox pbmit-ihbox-style-2 pb-md-4 pb-sm-4">
-                        <div class="pbmit-ihbox-box">
-                           <div class="pbmit-ihbox-headingicon">
-                              <div class="pbmit-ihbox-icon">
-                                 <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-image">
-                                    <img class="img-fluid" src="images/bg/placeholder.png" alt="Make Appointment" />
-                                 </div>
-                              </div>
-                              <div class="pbmit-ihbox-contents">
-                                 <h4 class="pbmit-element-title text-white">Locate Nearest Clinic</h4>
-                                 <button type="button" class="btn btn-warning">Find Us Now</button>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="result" class="quiz-body">
+                        <form name="quizForm" onSubmit="">
+                            <fieldset class="form-group">
+                                <h5><span id="qid">1.</span> <span id="question"></span></h5>
 
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-6 col-lg-3">
-                     <div class="pbmit-ihbox pbmit-ihbox-style-2 pb-md-4 pb-sm-4">
-                        <div class="pbmit-ihbox-box">
-                           <div class="pbmit-ihbox-headingicon">
-                              <div class="pbmit-ihbox-icon">
-                                 <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-image">
-                                    <img class="img-fluid" src="images/bg/schedule.png" alt="Make Appointment" />
-                                 </div>
-                              </div>
-                              <div class="pbmit-ihbox-contents">
-                                 <h4 class="pbmit-element-title">Book An Appointment </h4>
-                                 <button type="button" class="btn btn-warning">Book Now</button>
+                                <div class="option-block-container" id="question-options">
 
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-6 col-lg-3">
-                     <div class="pbmit-ihbox pbmit-ihbox-style-2 pb-md-4 pb-sm-4">
-                        <div class="pbmit-ihbox-box">
-                           <div class="pbmit-ihbox-headingicon">
-                              <div class="pbmit-ihbox-icon">
-                                 <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-image">
-                                    <img class="img-fluid" src="images/bg/hair-comb.png" alt="Make Appointment" />
-                                 </div>
-                              </div>
-                              <div class="pbmit-ihbox-contents">
-                                 <h4 class="pbmit-element-title">Hair & Skin Care Products</h4>
-                                 <button type="button" class="btn btn-warning">Buy Now</button>
+                                </div> <!-- End of option block -->
+                            </fieldset>
+                            <div style="    position: absolute;
+                            bottom: 0;
+                            margin-bottom: 14px;">
+                                <button name="previous" id="previous"
+                                    class="btn btn-primary pull-left">Previous</button>
+                                &nbsp;
+                                <button name="next" id="next" class="btn btn-dark pull-right">Next</button>
+                            </div>
+                        </form>
+                    </div>
+                </div> <!-- End of col-sm-12 -->
 
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-6 col-lg-3">
-                     <div class="pbmit-ihbox pbmit-ihbox-style-2 pb-md-4 pb-sm-4">
-                        <div class="pbmit-ihbox-box">
-                           <div class="pbmit-ihbox-headingicon">
-                              <div class="pbmit-ihbox-icon">
-                                 <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-image">
-                                    <img class="img-fluid" src="images/bg/healthcare.png" alt="Make Appointment" />
-                                 </div>
-                              </div>
-                              <div class="pbmit-ihbox-contents">
-                                 <h4 class="pbmit-element-title"> Free Health Evaluation</h4>
-                                 <button type="button" class="btn btn-warning">Start Now</button>
+            </div> <!-- End of row -->
+        </div> <!-- ENd of container fluid -->
+    </div> <!-- End of content -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script>
+        /* Created and coded by Abhilash Narayan */
+        /* Quiz source: w3schools.com */
 
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <!-- Team End -->
+        var quiz = {
+            "JS": [
+                {
+                    "id": 1,
+                    "question": "Which Configuration file is used by the CPM scanner when scanning UNIX/Linux devices?",
+                    "options": [
+                        {
+                            "a": "UnixPrompts.ini",
+                            "b": "Plink.exe",
+                            "c": "Dbparm.ini",
+                            "d": "UnixScanner.ini"
+                        }
+                    ],
+                    "answer": "UnixPrompts.ini",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 2,
+                    "question": "If PTA is integrated with a supported SIEM solution, which detection becomes available? ",
+                    "options": [
+                        {
+                            "a": "Unmanaged privileged account",
+                            "b": "Privileged access to the Vault during irregular days",
+                            "c": "riskySPN",
+                            "d": "exposed credentials"
+                        }
+                    ],
+                    "answer": "Unmanaged privileged account",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 3,
+                    "question": "What is required to enable access over SSH to a Unix account through both PSM & PSMP?  ",
+                    "options": [
+                        {
+                            "a": "PSM & PSMP must already have stored the SSH Fingerprint for the Unix host",
+                            "b": "The platform must contain connection components for PSM-SSH and PSMP-SSH",
+                            "c": "The ‘Enable PSMP’ setting in the Unix platform must be set to yes",
+                            "d": "A duplicate platform (Called <PlatformName-PSMP>) with the PSMP settings must be created"
+                        }
+                    ],
+                    "answer": "The platform must contain connection components for PSM-SSH and PSMP-SSH",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 4,
+                    "question": "What does the Export Vault Data (EVD) utility do?",
+                    "options": [
+                        {
+                            "a": "Generated a backup file that can be used as a cold backup",
+                            "b": "Exports all passwords and imports them into another instance of CyberArk",
+                            "c": "Keeps two active vaults in sync",
+                            "d": "Exports data from the Vault to TXT or CSV files, or to MSSQL databases"
+                        }
+                    ],
+                    "answer": "Exports data from the Vault to TXT or CSV files, or to MSSQL databases",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 5,
+                    "question": "In the PrivateArk client under the Tools menu> Administrator Tools> Users and Groups, which option do you use to update users Vault group memberships?",
+                    "options": [
+                        {
+                            "a": "Update>Group tab",
+                            "b": "Update>Member of tab",
+                            "c": "Update>Authorization tab",
+                            "d": "Update>General tab"
+                        }
+                    ],
+                    "answer": "Update>Member of tab",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 6,
+                    "question": "Which change could CyberArk make to the REST API that could cause existing scripts to fail?",
+                    "options": [
+                        {
+                            "a": "Removing parameters",
+                            "b": "Adding optional parameters in the request",
+                            "c": "Adding additional REST methods",
+                            "d": "Returning additional values in the response"
+                        }
+                    ],
+                    "answer": "Removing parameters",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 7,
+                    "question": "Which change could CyberArk make to the REST API that could cause existing scripts to fail?",
+                    "options": [
+                        {
+                            "a": "Removing parameters",
+                            "b": "Adding optional parameters in the request",
+                            "c": "Adding additional REST methods",
+                            "d": "Returning additional values in the response"
+                        }
+                    ],
+                    "answer": "Removing parameters",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 8,
+                    "question": "You need to enable the PSM for all the platforms. Where do you perform the task?",
+                    "options": [
+                        {
+                            "a": "Platform Management > (Platform)>UI & Workflows",
+                            "b": "Master Policy > Session Management",
+                            "c": "Master Policy>Privileged Access Workflows",
+                            "d": "Administration> Options> Connection Components"
+                        }
+                    ],
+                    "answer": "Master Policy > Session Management",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 9,
+                    "question": "Which built-in report from the reports page in PVWA displays the number of days until a password is due to expire?",
+                    "options": [
+                        {
+                            "a": "Privileged Accounts CPM Status",
+                            "b": "Activity Log",
+                            "c": "Privileged Accounts Compliance Status",
+                            "d": "Privileged Accounts Inventory"
+                        }
+                    ],
+                    "answer": "Privileged Accounts Compliance Status",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 10,
+                    "question": "When should vault keys be rotated?",
+                    "options": [
+                        {
+                            "a": "When it is copied to file systems outside the vault",
+                            "b": "Annually",
+                            "c": "Whenever a CyberArk user leaves the organization",
+                            "d": "When migrating to a new data centre"
+                        }
+                    ],
+                    "answer": "When it is copied to file systems outside the vault",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 11,
+                    "question": "Which master policy settings ensure non-repudiation?",
+                    "options": [
+                        {
+                            "a": "Required password verification every X days and enforce one-time password access",
+                            "b": "Enforce check-in/check-out exclusive access and enforce one-time password access.",
+                            "c": "Allow EPV transparent connections Click to Connect and enforce check-in check-out exclusive access.",
+                            "d": "Allow EPV transparent connections (‘Click to Connect’) and enforce one-time password access."
+                        }
+                    ],
+                    "answer": "Enforce check-in/check-out exclusive access and enforce one-time password access.",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 12,
+                    "question": "You have been asked to turn off the time access restrictions for a safe. Where is this setting found?",
+                    "options": [
+                        {
+                            "a": "PrivateArk Client",
+                            "b": "RestAPI",
+                            "c": "PVWA",
+                            "d": "Vault"
+                        }
+                    ],
+                    "answer": "PrivateArk Client",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 13,
+                    "question": "Before failing back to the production infrastructure after a DR exercise, what must you do to maintain audit history during the DR event?",
+                    "options": [
+                        {
+                            "a": "Briefly stop and start the Disaster Recovery Instance before attempting to fail components back to the Production Instance",
+                            "b": "Stop the CPM services before starting the production server",
+                            "c": "Perform and IIS Reset on a PVWA servers",
+                            "d": "Ensure that the Production Instance replicates changes that occurred from the Disaster Recovery Instance"
+                        }
+                    ],
+                    "answer": "Ensure that the Production Instance replicates changes that occurred from the Disaster Recovery Instance",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 14,
+                    "question": "You are onboarding an account that is not supported out of the box. What should you do first to obtain a platform to import?",
+                    "options": [
+                        {
+                            "a": "From the platforms page, uncheck the ‘Hide non supported platofrms’ checkbox and see if a platform meeting your needs",
+                            "b": "Visit the CyberArk marketplace and search for a platform that meets your needs",
+                            "c": "Search common community portals like stackoverflow, reddit, github for an existing platform",
+                            "d": "Create a service ticket in the customer portal explaining the requirements of the custom platform"
+                        }
+                    ],
+                    "answer": "Visit the CyberArk marketplace and search for a platform that meets your needs",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 15,
+                    "question": "In a rule using ‘Privileged Session Analysis and Response’ in PTA, which session options are available to configure as responses to activities? ",
+                    "options": [
+                        {
+                            "a": "Suspend, Terminate",
+                            "b": "Pause, Terminate, Non",
+                            "c": "Suspend, Terminate, Lock Account",
+                            "d": "Suspend, Terminate, None"
+                        }
+                    ],
+                    "answer": "Suspend, Terminate, None",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 16,
+                    "question": "Which usage can be added as a service account platform?",
+                    "options": [
+                        {
+                            "a": "Kerberos Tokens",
+                            "b": "IIS Application Pools",
+                            "c": "PowerShell Libraries",
+                            "d": "Loosely Connected Devices"
+                        }
+                    ],
+                    "answer": "IIS Application Pools",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 17,
+                    "question": "What can you do to ensure each component server is operational?",
+                    "options": [
+                        {
+                            "a": "Logon to PVWA with v10 UI, navigate to Healthcheck, and validate each component server is connected to the vault",
+                            "b": "Ping each component server to ensure connectivity",
+                            "c": "Use the PrivateArk client to connect to the Vault Server and validate all the services are running",
+                            "d": "Install the Vault Server interface on a remote machine to avoid interactive login to the Vault OS and review the ITALog.log through the Vault."
+                        }
+                    ],
+                    "answer": "Logon to PVWA with v10 UI, navigate to Healthcheck, and validate each component server is connected to the vault",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 18,
+                    "question": "Which setting in the Master Policy controls whether PSM is enabled and session will be recorded?",
+                    "options": [
+                        {
+                            "a": "Required privileged session monitoring and isolation = inactive, Record and save session activity = active",
+                            "b": "Required privileged session monitoring and isolation = active, Record and save session activity = active",
+                            "c": "Required privileged session monitoring and isolation = inactive, Record and save session activity = inactive",
+                            "d": "Required privileged session monitoring and isolation = active, Record and save session activity = inactive"
+                        }
+                    ],
+                    "answer": "Required privileged session monitoring and isolation = active, Record and save session activity = active",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 19,
+                    "question": "What does the minvalidity parameter on a platform policy determine?",
+                    "options": [
+                        {
+                            "a": "Time between a password retrieval and the account becoming eligible for a password change",
+                            "b": "Timeout for users signed into PVWA as configured in the global settings",
+                            "c": "Minimum amount of time that Just In Time access is valid",
+                            "d": "Time in minutes before an empty safe will be automatically deleted"
+                        }
+                    ],
+                    "answer": "Time between a password retrieval and the account becoming eligible for a password change",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 20,
+                    "question": "In the Private Ark client, how do you add an LDAP group to a CyberArk group?",
+                    "options": [
+                        {
+                            "a": "Select Member on the LDAP group, and then click Add > LDAP Group",
+                            "b": "Select Member on the CyberArk group, and then click Add > LDAP Group",
+                            "c": "Select Update on the LDAP group, and then click Add > LDAP Group",
+                            "d": "Select Update on the CyberArk group, and then click Add > LDAP Group"
+                        }
+                    ],
+                    "answer": "Select Update on the CyberArk group, and then click Add > LDAP Group",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 21,
+                    "question": "Which item is an option for PSM recording customization?",
+                    "options": [
+                        {
+                            "a": "Windows events text recorded with automatic play-back",
+                            "b": "Windows events test recorder and universal keystroke recording simultaneously",
+                            "c": "Universal keystrokes test recorder with windows events text recorder disabled",
+                            "d": "Custom audio recording for windows events"
+                        }
+                    ],
+                    "answer": "Universal keystrokes test recorder with windows events text recorder disabled",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 22,
+                    "question": "You are configuring CyberArk to use HTML5 gateways exclusively for PSM connections in the PVWA, where do you set DefaultConnectionMethod to HTML%?",
+                    "options": [
+                        {
+                            "a": "Options > Privileged Session Management UI",
+                            "b": "Options > Privileged Session Management",
+                            "c": "Options > Privileged Session Management Defaults",
+                            "d": "Options > Privileged Session Management Interface"
+                        }
+                    ],
+                    "answer": "Options > Privileged Session Management",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 23,
+                    "question": "You are configuring a Vault HA cluster. Which file should you check to confirm the correct drives have been assigned for the location of the Quorum and Safes data disks?",
+                    "options": [
+                        {
+                            "a": "ClusterVault.ini",
+                            "b": "My.ini",
+                            "c": "Vault.ini",
+                            "d": "DBParm.ini"
+                        }
+                    ],
+                    "answer": "ClusterVault.ini",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 24,
+                    "question": "When an account is unable to change its own password, how can you ensure that password reset with the reconcile account is performed each time.?",
+                    "options": [
+                        {
+                            "a": "Set the UnlockUserOnReconcile to Yes",
+                            "b": "Set the parameter IgnoreReconcileOnMissingAccount to Yes",
+                            "c": "Set the parameter ChangePasswordInResetMode to Yes",
+                            "d": "Set the parameter RCAllowManualReconciliation to Yes"
+                        }
+                    ],
+                    "answer": "Set the parameter ChangePasswordInResetMode to Yes",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 25,
+                    "question": "Where can you check that te LDAP binding is using TCP/636?",
+                    "options": [
+                        {
+                            "a": "inactive Directory under “Users OU” => “User Properties” => “External Bindings” => “Port”",
+                            "b": "in PVWA, under “LDAP Integration” => “LDAP” => “Directories” => “<Name of the Directory>” => “Hosts” => “Host”",
+                            "c": "in PrivateArk Client, under “Tools” => “Administrative Tools” => Directory Mapping” => “<name of Directory Map>”",
+                            "d": "From the PVWA, connect to the domain controller using Test-NetConnection on port 636."
+                        }
+                    ],
+                    "answer": "in PVWA, under “LDAP Integration” => “LDAP” => “Directories” => “<Name of the Directory>” => “Hosts” => “Host”",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 26,
+                    "question": "You want to generate a license capacity report. Which tool accomplishes this?",
+                    "options": [
+                        {
+                            "a": "RestAPI",
+                            "b": "DiagnoseDB Report",
+                            "c": "PrivateArk Client",
+                            "d": "Password Vault Web Access"
+                        }
+                    ],
+                    "answer": "PrivateArk Client",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 27,
+                    "question": "A newly created platform allows users to access a Linux endpoint. The option to connect through the PSM is unavailable. Which piece of the platform is missing?",
+                    "options": [
+                        {
+                            "a": "PSM-SSH Connection Component",
+                            "b": "UnixPrompts.ini",
+                            "c": "UnixProcess.ini",
+                            "d": "PSM-RDP Connections Component"
+                        }
+                    ],
+                    "answer": "PSM-SSH Connection Component",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 28,
+                    "question": "Which statement about the Master Policy best describes the difference between one-time password and exclusive access functionality?",
+                    "options": [
+                        {
+                            "a": "Exclusive access means that only a specific group of users may use e account. After on a one-time password platform is used, the safe automatically.",
+                            "b": "Exclusive access locks the account indefinitely. One-time password can be used replace invalid account passwords.",
+                            "c": "Exclusive access is enabled by default in the Master Policy. One-time password should be enabled for emergencies.",
+                            "d": "Exclusive access allows only one person to checkout an account at a time. One-time password schedules an account for a password change after period expires."
+                        }
+                    ],
+                    "answer": "Exclusive access allows only one person to checkout an account at a time. One-time password schedules an account for a password change after period expires.",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 29,
+                    "question": "How much disk space do you need on a server to run a full replication with PAReplicate?",
+                    "options": [
+                        {
+                            "a": "500 GB",
+                            "b": "1TB",
+                            "c": "Same as disk size on Satellite Vault",
+                            "d": "Atleast the same disk size as the primary vault"
+                        }
+                    ],
+                    "answer": "Atleast the same disk size as the primary vault",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 30,
+                    "question": "You have been asked to secure a set of shared accounts in CyberArk whose password will need to be used by the end users. The account owner wants to be track who was using an account at any given moment. Which security configuration should you recommend?",
+                    "options": [
+                        {
+                            "a": "Configure one-time passwords for the appropriate platform in Master policy",
+                            "b": "Configure shared account mode on the appropriate safe",
+                            "c": "Configure both one-time password and exclusive access for the appropriate platform in Master policy",
+                            "d": "Configure object level access control on the appropriate safe"
+                        }
+                    ],
+                    "answer": "Configure both one-time password and exclusive access for the appropriate platform in Master policy",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 31,
+                    "question": "To use PSM connections while in the PVWA, what are the minimum safe permissions a user or group will need?",
+                    "options": [
+                        {
+                            "a": "List Accounts, Use Accounts",
+                            "b": "List Accounts, Use Accounts, Retrieve Accounts",
+                            "c": "Use Accounts",
+                            "d": "List Accounts, Use Accounts, Retrieve Accounts, Access Safe without confirmation"
+                        }
+                    ],
+                    "answer": "Use Accounts",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 32,
+                    "question": "You are logginf into CyberArk as the Master user to recover an orphaned safe. Which items required to log in as Master?",
+                    "options": [
+                        {
+                            "a": "Master CD, Master Password, console access to the vault server, Private Ark Client",
+                            "b": "Operator CD, Master password, console access to PVWA server, PVWA access",
+                            "c": "Operator CD, Master password, console access to the vault server, Recover.exe",
+                            "d": "Master CD, Master password, console access to the PVWA server, Recover.exe"
+                        }
+                    ],
+                    "answer": "Master CD, Master Password, console access to the vault server, Private Ark Client",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 33,
+                    "question": "Which command generates a full backup of the vault?",
+                    "options": [
+                        {
+                            "a": "PAReplicate.exe Vault.ini/LogonFromFile user.ini/FullBackup",
+                            "b": "PAPreBackup.exe C:\PrivateArk\Server\Conf\Vault.ini Backup/ASDF1234/full",
+                            "c": "PARestore.exe PADR.ini/LogonFromFile vault.ini/FullBackup",
+                            "d": "CAVaultManager.exe RecoverBackupFiles/BackupPoolName BkpSvr1"
+                        }
+                    ],
+                    "answer": "PAReplicate.exe Vault.ini/LogonFromFile user.ini/FullBackup",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 34,
+                    "question": "When the CPM connects to a database, which interface is most commonly used?",
+                    "options": [
+                        {
+                            "a": "Kerberos ",
+                            "b": "ODBC",
+                            "c": "VBScript",
+                            "d": "Sybase"
+                        }
+                    ],
+                    "answer": "ODBC",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 35,
+                    "question": "When onboarding multiple accounts from the pending accounts list, which associated setting must be the same across the selected accounts?",
+                    "options": [
+                        {
+                            "a": "Platform",
+                            "b": "Connection Component",
+                            "c": "CPM",
+                            "d": "Vault"
+                        }
+                    ],
+                    "answer": "Platform",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 36,
+                    "question": "To manage automated onboarding rules, a CyberArk user must be a member of which group? ",
+                    "options": [
+                        {
+                            "a": "Vault Admins",
+                            "b": "Password Managers",
+                            "c": "Auditors",
+                            "d": "Administrators"
+                        }
+                    ],
+                    "answer": "Vault Admins",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 37,
+                    "question": "Which statement is correct concerning accounts that are discovered, bust cannot be added to the Vault by an automated onboarding rule?",
+                    "options": [
+                        {
+                            "a": "They are added to the Pending Accounts list",
+                            "b": "They cannot be onboarded to the Password Vault",
+                            "c": "They must be uploading using third party tools",
+                            "d": "They are not part of the Discovery Process"
+                        }
+                    ],
+                    "answer": "They are added to the Pending Accounts list",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 38,
+                    "question": "Which CyberArk utility allows you to create lists of Master Policy Settings, Owners and safes for output to text files or MSSQL databases?",
+                    "options": [
+                        {
+                            "a": "Export Vault Data",
+                            "b": "Export Vault Information",
+                            "c": "PrivateArk Client",
+                            "d": "Privileged Threat Analytics"
+                        }
+                    ],
+                    "answer": "Export Vault Data",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 39,
+                    "question": "In PVWA, you are attempting to play a recording made of a session by user jsmith, but there is no option to “Fast Forward” within the video. It plays and commands instead. You are also unable to download the video. What could be the cause?",
+                    "options": [
+                        {
+                            "a": "Recording is of a PSM for SSH session",
+                            "b": "The browser you are using is out of date and needs an update to be supported",
+                            "c": "You do not have the “View Audit” permission on the safe where the accounts is stored",
+                            "d": "You need to update the recorded settings in the platform to enable screen capture every 10000 ms or less"
+                        }
+                    ],
+                    "answer": "Recording is of a PSM for SSH session",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 40,
+                    "question": "What is the correct process to install a custom platform from the CyberArk Marketplace?",
+                    "options": [
+                        {
+                            "a": "Locate the custom platform in the marketplace and lick Import",
+                            "b": "Download the platform from the marketplace ad import it using the PVWA",
+                            "c": "Contac CyberArk Support for guidance on how to import the platform",
+                            "d": "Duplicate an existing platform and align the setting to match the platform from the Marketplace"
+                        }
+                    ],
+                    "answer": "Download the platform from the marketplace ad import it using the PVWA",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 41,
+                    "question": "You have been asked to create an account group and assign three accounts which to a cluster, When you try to create a new group, you receive an unauthorized you are able to edit their aspects of the account properties. Which safe permission do you need to manage account groups?",
+                    "options": [
+                        {
+                            "a": "Create folders",
+                            "b": "Specify next account content",
+                            "c": "Rename accounts",
+                            "d": "Manage safe"
+                        }
+                    ],
+                    "answer": "Create folders",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 42,
+                    "question": "You have been given the requirement that certain accounts cannot have their password updated during business hours. How can you setup a configuration to ee this requirement?",
+                    "options": [
+                        {
+                            "a": "Change settings on the CPM configuration safe so that access is permitted after business hours only",
+                            "b": "Update the password change parameters of the platform to match the permitted time frame",
+                            "c": "Disable automatic CPM management for all the accounts that are assigned to this platform",
+                            "d": "Add an exception to the Master policy to allow the action for this platform during the permitted time."
+                        }
+                    ],
+                    "answer": "Update the password change parameters of the platform to match the permitted time frame",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 43,
+                    "question": "Why is the user “EMEALevel2Support” unable to change the password for user “operator”?",
+                    "options": [
+                        {
+                            "a": "EMEALevel2Support’s hierarchy level is not the same or higher than operator",
+                            "b": "EMEALevel2Support does not have the “Manager Directory Mapping” role",
+                            "c": "Operator can only e reset by the master user",
+                            "d": "EMEALevel2Support does not have right s to reset password for other users"
+                        }
+                    ],
+                    "answer": "EMEALevel2Support’s hierarchy level is not the same or higher than operator",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 44,
+                    "question": "To change the safe where recordings are kept for a specific platform, which setting must you update in the platform configuration?",
+                    "options": [
+                        {
+                            "a": "SessionRecorderSafe",
+                            "b": "SessionSafe",
+                            "c": "RecordingsPath",
+                            "d": "Recording Location"
+                        }
+                    ],
+                    "answer": "SessionRecorderSafe",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 45,
+                    "question": "When are external vault users and groups synchronized by default?",
+                    "options": [
+                        {
+                            "a": "They are synchronized once every 24 hours between 1 AM and 5 AM",
+                            "b": "They are synchronized once every 24 hours between 7 PM and 12 AM",
+                            "c": "They are synchronized every 2 hours.",
+                            "d": "They are not synchronized according to a specific schedule"
+                        }
+                    ],
+                    "answer": "They are synchronized once every 24 hours between 1 AM and 5 AM",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 46,
+                    "question": "Which file must be edited on the Vault to configure it to send date to PTA?",
+                    "options": [
+                        {
+                            "a": "dbparm.ini",
+                            "b": "PARAgent.ini ",
+                            "c": "my.ini ",
+                            "d": "padr.ini"
+                        }
+                    ],
+                    "answer": "dbparm.ini",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 47,
+                    "question": "You receive this error Error in change password to user domain -user on domain server(\domain(winRc=5) Access is denied Which could be the cause?",
+                    "options": [
+                        {
+                            "a": "The account does not have sufficient permissions to change its own password",
+                            "b": "The domain controller is unreachable",
+                            "c": "The password has been changed recently and minimum password age is preventing the change",
+                            "d": "The CPM service is disabled and will need to be restarted"
+                        }
+                    ],
+                    "answer": "The account does not have sufficient permissions to change its own password",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 48,
+                    "question": "In addition to add accounts and update account contents, which additional permission on the safe is required to add a single account?",
+                    "options": [
+                        {
+                            "a": "Manage Safe",
+                            "b": "Rename Accounts",
+                            "c": "Update Account Properties",
+                            "d": "upload Accounts Properties"
+                        }
+                    ],
+                    "answer": "Update Account Properties",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 49,
+                    "question": "You want to built a connector that connects to a website through the web applications for PSM framework. Which default connector do you duplicate and modify?",
+                    "options": [
+                        {
+                            "a": "PSM- Webform",
+                            "b": "PSM-Chrome sample",
+                            "c": "psm-webapp",
+                            "d": "Psm-WebAppSample"
+                        }
+                    ],
+                    "answer": "Psm-WebAppSample",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 50,
+                    "question": "The Privileged Access Management solution provides an out-of-the-box target platform to manage SSH keys ,called UNIX Via SSH Keys. How are these keys managed?",
+                    "options": [
+                        {
+                            "a": "CyberArk stores Public keys in the Vault and updates Private keys on target systems",
+                            "b": "CyberArk stores Private keys in the Vault and updates Public keys on target systems",
+                            "c": "CyberArk stores both Private and Public keys and can update target systems with either key",
+                            "d": "CyberArk does not store Public or Private keys and instead uses a reconcile account to create keys on demand",
 
-         <!-- Blog Grid -->
-         <section class="py-lg-5 pb-4" style="background-color: #eceff1;">
-            <div class="container">
-               <div class="row">
-                  <div class="pbmit-heading-subheading text-center">
-                     <h4 class="pbmit-subtitle"> Medical quality care</h4>
-                     <h3 class="pbmit-title">Exactly What Facilities We Provided </h3>
-                  </div>
-                  <div class="col-sm-12 col-md-4">
-                     <article class="pbmit-service-style-1">
-                        <div class="pbminfotech-post-item">
-                           <div class="pbmit-service-icon-overlay">
-                              <div class="pbmit-featured-wrapper">
-                                 <img src="images/services/service-01.jpg" class="img-fluid" alt="service 1">
-                              </div>
-                              <div class="pbmit-service-icon-wrapper">
-                                 <i class="pbmit-doctery-icon pbmit-doctery-icon-pimples"></i>
-                              </div>
-                           </div>
-                           <div class="pbminfotech-box-content text-center">
-                              <div class="pbminfotech-box-content-inner">
-                                 <img src="images/bg/hydrafacial-logo.webp" class="img-fluid ser-img">
-                                 <div class="pbmit-service-content">
-                                    <p class="card-text">It's World's 1<sup>st</sup> Homeopathic HydraFacials crafted
-                                       for Skin Brightening, Tightening, Clearing &amp; Rejuvenating that instantly
-                                       gives you a radiant looking skin.</p>
-                                 </div>
-                                 <div class="pbmit-service-btn">
-                                    <a href="#">
-                                       <span class="pbmit-btn-text">More</span>
-                                       <i class="pbmit-base-icon-right-arrow"></i>
-                                    </a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </article>
-                  </div>
-                  <div class="col-sm-12 col-md-4">
-                     <article class="pbmit-service-style-1">
-                        <div class="pbminfotech-post-item">
-                           <div class="pbmit-service-icon-overlay">
-                              <div class="pbmit-featured-wrapper">
-                                 <img src="images/services/service-02.jpg" class="img-fluid" alt="service 2">
-                              </div>
-                              <div class="pbmit-service-icon-wrapper">
-                                 <i class="pbmit-doctery-icon pbmit-doctery-icon-blood-transfusion"></i>
-                              </div>
-                           </div>
-                           <div class="pbminfotech-box-content">
-                              <div class="pbminfotech-box-content-inner">
-                                 <img src="images/bg/Advance-Laser-logo.webp" class="img-fluid ser-img">
+                        }
+                    ],
+                    "answer": "CyberArk stores Private keys in the Vault and updates Public keys on target systems",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 51,
+                    "question": "A Password Compliance audit found &nbsp;\n1.One-time password access of 20 domain accounts that are members of Domein Admins group in Active Directory are not being enforced \n2.All the sessions of connecting to domain controllers are not being recorded by CyberArk PSM What should you do to address these findings?",
+                    "options": [
+                        {
+                            "a": "Edit the Master Policy and add two policy exceptions enable 'Enforce one time password access' enable 'Record and save session activity'",
+                            "b": "Contact the Windows Administrators and request them to add two policy exceptions at Active Directory Level: enable 'Enforce one-time password access ' enable and save session activity'.",
+                            "c": "Edit safe properties and add two policy exceptions enable 'Enforce one-time password access'enable 'Record and save session activity'.",
+                            "d": "Edit CPM Settings and add two policy exceptions enable 'Enforce one- time password access' enable' Record and save session activity'"
+                        }
+                    ],
+                    "answer": "Edit the Master Policy and add two policy exceptions enable 'Enforce one time password access' enable 'Record and save session activity'.",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 52,
+                    "question": "In a default CyberArk Installation ,Which group must a user be a member of to view the reports page in a pvwa?",
+                    "options": [
+                        {
+                            "a": "PERATORS",
+                            "b": "PVWA REPORTS",
+                            "c": "REPORTS USER",
+                            "d": "PVWA MONITOR"
+                        }
+                    ],
+                    "answer": "PVWA MONITOR",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 53,
+                    "question": "You want to create a new onboarding rule. Where do you accomplish this?",
+                    "options": [
+                        {
+                            "a": "In PrivateArk, click Tools > Onboarding Rules",
+                            "b": "In PVWA, click Reports > Unmanaged Accounts > Rules",
+                            "c": "In PVWA ,click Options > Platform Management > Onboarding Rules",
+                            "d": "in PVWA, click Accounts > Onboarding Rules"
+                        }
+                    ],
+                    "answer": "in PVWA, click Accounts > Onboarding Rules",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 54,
+                    "question": "Which Automatic Remediation is configurable for a PTA detection of a 'Suspected Credential Theft?",
+                    "options": [
+                        {
+                            "a": "Reconcile Credentials",
+                            "b": "Rotate Credentials",
+                            "c": "Disable Account",
+                            "d": "Add to Pending"
+                        }
+                    ],
+                    "answer": "Rotate Credentials",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 55,
+                    "question": "What do you need on the Vault to support LDAP over SSL?",
+                    "options": [
+                        {
+                            "a": "private key for the external directory",
+                            "b": "self signed Certificate(s) for the Vault",
+                            "c": "RECPRV.key",
+                            "d": " CA Certificate(s) used to sign the External Directory certificate"
+                        }
+                    ],
+                    "answer": "CA Certificate(s) used to sign the External Directory certificate",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 56,
+                    "question": "You have been asked to create an account group and assign three accounts which belong to a cluster .When you try to create a new group ,you receive an unauthorized	you are able to edit other aspects of the account properties. which safe ermission do you need to manage account groups?",
+                    "options": [
+                        {
+                            "a": "rename accounts",
+                            "b": "specity next account content",
+                            "c": "manage safe",
+                            "d": "create folders"
+                        }
+                    ],
+                    "answer": "create folders",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 57,
+                    "question": "Your organization has a requirement to allow only one user to 'check out passwords' and connect through the PSM securely. What needs to be configured in the Master policy to ensure this will happen?",
+                    "options": [
+                        {
+                            "a": "Enforce check-in/check-out exclusive access = inactive; Record and save session activity = active",
+                            "b": "Enforce check-in/check-out exclusive access = active ;Record and save session activity =inactive",
+                            "c": "Enforce check-in/check-out exclusive access = inactive ; Require privileged session monitoring and isolation = inactive",
+                            "d": "Enforce check-in/check out exclusive access active; Require privileged session monitoring and isolation = active"
+                        }
+                    ],
+                    "answer": "Enforce check-in/check out exclusive access active; Require privileged session monitoring and isolation = active",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 58,
+                    "question": "Which command generates a full backup of the Vault?",
+                    "options": [
+                        {
+                            "a": "PAPreBackup.exe.C :\PrivateArk\Server\ Conf\Vault.ini/ Backup/Asdf1234/full",
+                            "b": "CAVaultManager.exe RecoverBackupFiles/BackupPoolName BkpSvr1",
+                            "c": "PARestore.exe PADR .ini /LogonFromFile vault.ini /FullBackup",
+                            "d": "PAReplicate.exe.Vault .ini/Logon from file user.ini/Fullbackup "
+                        }
+                    ],
+                    "answer": "PAReplicate.exe.Vault .ini/Logon from file user.ini/Fullbackup",
+                    "score": 0,
+                    "status": ""
+                },
 
-                                 <div class="pbmit-service-content">
-                                    <p class="card-text">
-                                       A painless hair reduction treatment that uses ice cooling technology which gives
-                                       quick and permanent results without any side effects.
-                                    </p>
-                                 </div>
-                                 <div class="pbmit-service-btn">
-                                    <a href="service-details.html">
-                                       <span class="pbmit-btn-text">More</span>
-                                       <i class="pbmit-base-icon-right-arrow"></i>
-                                    </a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </article>
-                  </div>
-                  <div class="col-sm-12 col-md-4">
-                     <article class="pbmit-service-style-1">
-                        <div class="pbminfotech-post-item">
-                           <div class="pbmit-service-icon-overlay">
-                              <div class="pbmit-featured-wrapper">
-                                 <img src="images/services/service-03.jpg" class="img-fluid" alt="service 3">
-                              </div>
-                              <div class="pbmit-service-icon-wrapper">
-                                 <i class="pbmit-doctery-icon pbmit-doctery-icon-angiography"></i>
-                              </div>
-                           </div>
-                           <div class="pbminfotech-box-content">
-                              <div class="pbminfotech-box-content-inner">
-                                 <img src="images/bg/new-hair.svg" class="img-fluid ser-img">
+                {
+                    "id": 59,
+                    "question": "A user requested access to view a password secured by dual control and is unsure who to contact to expedite the apomval process,The Vaut Admin has been account and identity who can approve their request What is the correct location to identify users or groups who can approve?",
+                    "options": [
+                        {
+                            "a": "PVWA > Account List > Edit> Show Advanced Settings > Dual Control > Direct Managers",
+                            "b": "PrivateArk >	Admin Tools > Users and Groups > Auditors (Group Membership)",
+                            "c": "PVWA > Policies > Access Control (Safes) > Select the safe > Safe Members > Workflow > Authonze Password Requests",
+                            "d": "PVWA > Administration > Platform Configuration > Edit Platform > UI & Workflow > Dual Control > Approvers"
+                        }
+                    ],
+                    "answer": "PVWA > Policies > Access Control (Safes) > Select the safe > Safe Members > Workflow > Authonze Password Requests",
+                    "score": 0,
+                    "status": ""
+                },
 
-                                 <div class="pbmit-service-content">
-                                    <p>US FDA Approved Bio- engineered Hair treatment that uses Cutting edge technology
-                                       & Plant Plasma Polypeptides for visible hair growth in just 10 sessions.</p>
-                                 </div>
-                                 <div class="pbmit-service-btn">
-                                    <a href="service-details.html">
-                                       <span class="pbmit-btn-text">More</span>
-                                       <i class="pbmit-base-icon-right-arrow"></i>
-                                    </a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </article>
-                  </div>
+                {
+                    "id": 60,
+                    "question": "What is required to manage loosely connected devices?",
+                    "options": [
+                        {
+                            "a": "PSM",
+                            "b": "PSM for SSH",
+                            "c": "EPM",
+                            "d": "PTA"
+                        }
+                    ],
+                    "answer": "EPM",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 61,
+                    "question": "In your organization the 'click to connect' button is not active by default How can this feature be activated?",
+                    "options": [
+                        {
+                            "a": "Policies> Master Policy >Allow EPV transparent connections >Active",
+                            "b": "Policies >Master Policy> Password Management.",
+                            "c": "Policies> Master Policy> Allow EPV transparent connections > Inactive",
+                            "d": "Policies Master Policy Session Management > Require privileged session monitoring and isolation> Add Exception"
+                        }
+                    ],
+                    "answer": "Policies> Master Policy >Allow EPV transparent connections >Active",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 62,
+                    "question": "you have been asked to identify the up or down status of vault services. Whcih cyberark utility can you use to accomplish this task?",
+                    "options": [
+                        {
+                            "a": "PAS Reporter",
+                            "b": "Privateark central Administration Console",
+                            "c": "Syslog",
+                            "d": "PrivateArk Remote Control Agent"
+                        }
+                    ],
+                    "answer": "PrivateArk Remote Control Agent",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 63,
+                    "question": "A new colleague created a directory mapping between the Active Directory groups and the Vault. Where can the newly configured directory mapping be tested?",
+                    "options": [
+                        {
+                            "a": "Connect to Sailpoint (or similar tool) to ensure the organizational unit is correctly named, log in to the PVWA with 'Administrator' and confirm aut",
+                            "b": "Connect to the Active Directory and ensure the organizational unit exists.",
+                            "c": "Connect to the PrivateArk Client with the Administrator Account to see if there is a user in the Vault Admin Group",
+                            "d": "Search for members that exist only in the mapping group to grant them safe permissions through the PVWA"
+                        }
+                    ],
+                    "answer": "Search for members that exist only in the mapping group to grant them safe permissions through the PVWA",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 64,
+                    "question": "When an account is unable to change its own password, how can you ensure that password reset with the reconcile account is performed each timed of a change",
+                    "options": [
+                        {
+                            "a": "Set the parameter RCAllowManual Reconciliation to Yes ",
+                            "b": "Set the UnlockUserOnReconcile to Yes.",
+                            "c": "Set the parameter IgnoreReconcileOnMissing Account to No",
+                            "d": "Set the parameter ChangePasswordinResetMode to Yes "
+                        }
+                    ],
+                    "answer": "Set the parameter ChangePasswordinResetMode to Yes",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 65,
+                    "question": "Due to corporate storage constraints, you have been asked to disable session monitoring and recording for 500 testing accounts used for your How do you accomplish this?",
+                    "options": [
+                        {
+                            "a": "Administration>Platform Management select the platform(s)-disable Session Monitoring and Recording ",
+                            "b": "Master Policy select Session Management add Exceptions to the  platform(s)-disable Session Monitoring and Recording policies",
+                            "c": "Administration Configuration Options>Options>select Privilege Session Management-disable Session Monitoring and Recording policies",
+                            "d": "Polices>Access Control (Safes)>select the safe(s) disable Session Monitoring and Recording policies"
+                        }
+                    ],
+                    "answer": "Master Policy select Session Management add Exceptions to the  platform(s)-disable Session Monitoring and Recording policies",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 66,
+                    "question": "Which item is an option for PSM recording customization?",
+                    "options": [
+                        {
+                            "a": "Custom audio recording for windows events.",
+                            "b": "Universal keystrokes text recorder with windows events text recorder disabled",
+                            "c": "Windows events text recorder with automatic play-back",
+                            "d": "Windows events text recorder and universal ke rokes recording simultaneously "
+                        }
+                    ],
+                    "answer": "Windows events text recorder and universal ke rokes recording simultaneously ",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 67,
+                    "question": "You want to give a newly-created group rights to review security events under the Security pane. You also want to be able to update the status of these events. Where must you update the group to allow this?",
+                    "options": [
+                        {
+                            "a": "in the PTAAuthorization Groups parameter, found in Administration > Options > General",
+                            "b": "in the SecurityEventsAuthorization Groups parameter, found in Administration > Security > Options",
+                            "c": "in the Security EventsFeedAuthorizationGroups parameter, found in Administration > Options > General",
+                            "d": "in the PTAAuthorization Groups parameter, found in Administration > Options > PTA"
+                        }
+                    ],
+                    "answer": "in the SecurityEventsAuthorization Groups parameter, found in Administration > Security > Options",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 68,
+                    "question": "You are running a 'Privileged Accounts Inventory' Report through the Reports page in PVWA on a specific safe. To show complete account inventory information, which permission/s are needed on that safe?",
+                    "options": [
+                        {
+                            "a": "Manage Safe Owners",
+                            "b": "List Accounts, View Safe Members",
+                            "c": "List Accounts, Access Safe without confirmation",
+                            "d": "Manage Safe, View Audit",
 
-               </div>
+                        }
+                    ],
+                    "answer": "List Accounts, View Safe Members",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 69,
+                    "question": "What as the easiest way to duplicate an existing platform?",
+                    "options": [
+                        {
+                            "a": "From the PVWA ,navigate to the platforms page, select an existing platform that is similar to the new target account play,manually update the platform setting 'Save as INSTEAD of save to duplicate and rename the platform'",
+                            "b": "From the PVWA, navigate to the platforms page, select an existing platform that is similar to the new target account platform and then click duplicate, name the platform.",
+                            "c": "From PrivateArk, copypaste the appropriate settings in PVConfiguration. xml, then update the policyName variable.",
+                            "d": "From PrivateArk, copypaste the appropriate Policy.ini file, than rename it."
+                        }
+                    ],
+                    "answer": "From the PVWA, navigate to the platforms page, select an existing platform that is similar to the new target account platform and then click duplicate, name the platform.",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 70,
+                    "question": "You are onboarding 5,000 UNIX root accounts for rotation by the CPM. You discover that the CPM is unable to log in directly with the root account and will need to a account. How can this be configured to allow for password management using least privilege?",
+                    "options": [
+                        {
+                            "a": "Configure each CPM to use the correct reconcile account",
+                            "b": "Configure each CPM to use the correct logon account ",
+                            "c": "Configure the UNIX platform to use the correct logon account ",
+                            "d": "Configure the UNIX platform to use the correct reconcile account."
+                        }
+                    ],
+                    "answer": "Configure the UNIX platform to use the correct logon account",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 71,
+                    "question": "How do you create a cold storage backup?",
+                    "options": [
+                        {
+                            "a": "Configure the backup options in the PVWA",
+                            "b": "Install the Vault Backup utility on a different machine from the Enterprise Password Vault server and trigger the full backup",
+                            "c": "On the DR Vault, install PAReplicate according to the Installation guide, configure the logon ini file, and define the Schedule tasks for full and increment backups.",
+                            "d": "On the DR Vault, configure the cold storage backup path in TSParm ini file.",
 
-            </div>
-         </section>
-         <!-- Blog Grid End -->
-
-         <!-- Action Box -->
-         <section class="action-box pbmit-bg-color-blackish">
-            <div class="container">
-               <div class="row justify-content-center">
-                  <div class="col-12 col-md-8 text-center">
-                     <a href="https://www.youtube.com/watch?v=otN60BSuZrg"
-                        class="home-2-video-btn pbmin-lightbox-video">
-                        <i class="fa fa-play"></i>
-                     </a>
-                     <div class="pbmit-heading-subheading text-center mt-4">
-                        <h4 class="pbmit-subtitle">Manage your healthcare</h4>
-                        <h2 class="pbmit-title text-white">Trust us to be there to help all and make things weel again
-                        </h2>
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-12">
-                     <div class="action-box-wrap">
-                        <div class="row g-0">
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/ACNE.png" style="height: auto;width: 40%;">
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Rhinology</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/ACNE.png" style="height: auto;width: 40%;">
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Rhinology</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/ALLERGY.png" style="height: auto;width: 40%;">
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Nurology</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/3997793.png" style="height: auto;width: 40%;">
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Gastroenterology</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/ASTHMA.png" style="height: auto;width: 40%;">
-
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Otology</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/DEPRESSED.png" style="height: auto;width: 40%;">
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Pulmonology</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img
-                                             src="images/disease/ear-pain-line-icon-body-and-painful-ache-vector-25616860.png"
-                                             style="height: auto;width: 40%;">
-
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Urology</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/FEVER.png" style="height: auto;width: 40%;">
-
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Dental Care</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/free-dizziness-icon-3939-thumb.png"
-                                             style="height: auto;width: 40%;">
-
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Orthopedist</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/HAIR LOSS.png" style="height: auto;width: 40%;">
-
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Eye care</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/heart-disease-diagnosis-color-icon-vector.webp"
-                                             style="height: auto;width: 40%;">
-
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Urology</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/INSOMNIA.png" style="height: auto;width: 40%;">
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Dental Care</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/LIVER.png" style="height: auto;width: 40%;">
-
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Urology</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/MENINGITIS.png" style="height: auto;width: 40%;">
-
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Dental Care</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/procedures-icon-vitiligo-treatment.png"
-                                             style="height: auto;width: 40%;">
-
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Orthopedist</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/SORE THROAT.png" style="height: auto;width: 40%;">
-
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Eye care</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/ulcerative-colitis.png"
-                                             style="height: auto;width: 40%;">
-
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Urology</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-2">
-                              <div class="pbmit-ihbox-style-9">
-                                 <div class="pbmit-ihbox-box">
-                                    <div class="pbmit-ihbox-icon">
-                                       <div class="pbmit-ihbox-icon-wrapper">
-                                          <img src="images/disease/VIRUS.png" style="height: auto;width: 40%;">
-                                       </div>
-                                    </div>
-                                    <div class="pbmit-ihbox-contents">
-                                       <h2 class="pbmit-element-title">Dental Care</h2>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-
-         <!-- Provided Start -->
-         <section class="team-02-section bg-white">
-            <section class="pbmit-bg-color-light home2-faq-section-bg  section-lg">
-               <div class="container ">
-                  <div class="row justify-content-between">
-                     <div class="col-md-6 home2-faq-bg">
-                        <div class="home2-faq-wrap">
-                           <div class="pbmit-heading-subheading">
-                              <h4 class="pbmit-subtitle"> General Query</h4>
-                              <h2 class="pbmit-title"> Get every single update here med info</h2>
-                           </div>
-                           <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                              nulla pariatur excepteur officia deserunt mollit anim id est laborum esse cillum dolore eu
-                              fugiat.</p>
-                           <div class="mt-5">
-                              <a href="faq.html" class="pbmit-btn pbmit-btn-white pbmit-btn-hover-secondary">Show All
-                                 Faq</a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-6">
-                        <div class="accordion-wrap">
-                           <div class="accordion" id="accordionExample">
-                              <div class="accordion-item">
-                                 <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                       data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                       <span>01.</span> How can I book an appointment?
-                                    </button>
-                                 </h2>
-                                 <div id="collapseOne" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                       <p>
-                                          Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et
-                                          dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation
-                                          ullamco.
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="accordion-item">
-                                 <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                       data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                       <span>02.</span> Do you use anesthetics for operation in hospital?
-                                    </button>
-                                 </h2>
-                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                       <p>
-                                          Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et
-                                          dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation
-                                          ullamco.
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="accordion-item">
-                                 <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                       data-bs-target="#collapseThree" aria-expanded="false"
-                                       aria-controls="collapseThree">
-                                       <span>03.</span> What are specialties of your neurologists?
-                                    </button>
-                                 </h2>
-                                 <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                       <p>
-                                          Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et
-                                          dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation
-                                          ullamco.
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-         </section>
-         <!-- Provided End -->
-
-         <!-- Testimonial Start -->
-         <section class="home3-testimonial-section-bg section-lg">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-4">
-                     <div class="pbmit-heading-subheading">
-                        <h4 class="pbmit-subtitle">Testimonials</h4>
-                        <h2 class="pbmit-title text-white">What people <br />say about</h2>
-                     </div>
-                     <p class="border-bottom pb-4 text-white me-3">Quis ipsum suspendisse ultrices gravida. Risus
-                        commodo viverra maecenas</p>
-                     <div class="pbminfotech-ele-fid-style-2 pb-5 pb-lg-0 ">
-                        <div class="d-flex">
-                           <div class="pbmit-sbox-icon-wrapper">
-                              <div class="pbmit-icon-wrapper pbmit-icon-type-icon">
-                                 <i class="pbmit-doctery-icon pbmit-doctery-icon-smiling text-white"></i>
-                              </div>
-                           </div>
-                           <div class="pbmit-fld-contents">
-                              <h4 class="pbmit-fid-inner">
-                                 <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits"
-                                    data-from="0" data-to="9980" data-interval="5" data-before="" data-before-style=""
-                                    data-after="" data-after-style="">9980</span><span
-                                    class="pbmit-fid-sub"><sup>+</sup></span>
-                              </h4>
-                              <h3 class="pbmit-fid-title">Happy Patients</h3>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-8">
-                     <div class="swiper-slider" data-autoplay="false" data-dots="true" data-arrows="false"
-                        data-columns="2" data-margin="30" data-effect="slide">
-                        <div class="swiper-wrapper">
-                           <div class="swiper-slide">
-                              <!-- Slide1 -->
-                              <article class="pbmit-testimonial-style-2 pbmit-odd pbmit-col-odd">
-                                 <div class="pbminfotech-post-item">
-                                    <div class="pbminfotech-box-content">
-                                       <div class="pbminfotech-box-desc">
-                                          <div class="pbminfotech-box-star-ratings">
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                          </div>
-                                          <blockquote class="pbminfotech-testimonial-text">
-                                             <div>I appreciate your hospital really good environment and excellent
-                                                patient care. You are continuously handle patient treatment wonderfully.
-                                                Thanks for your great service. Please enjoy the chocolates.</div>
-                                          </blockquote>
-                                       </div>
-                                       <div class="pbminfotech-author-wrapper d-flex align-items-center">
-                                          <div class="pbminfotech-box-img">
-                                             <div class="pbmit-featured-wrapper">
-                                                <img src="images/testimonial/testimonial-01.jpg" class="img-fluid"
-                                                   alt="testimonial 1" />
-                                             </div>
-                                          </div>
-                                          <div class="pbminfotech-box-author">
-                                             <h3 class="pbminfotech-box-title">Amanda Kinedy</h3>
-                                             <div class="pbminfotech-testimonial-detail">Hematology</div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </article>
-                           </div>
-                           <div class="swiper-slide ">
-                              <!-- Slide2 -->
-                              <article class="pbmit-testimonial-style-2 pbmit-odd pbmit-col-odd">
-                                 <div class="pbminfotech-post-item">
-                                    <div class="pbminfotech-box-content">
-                                       <div class="pbminfotech-box-desc">
-                                          <div class="pbminfotech-box-star-ratings">
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                          </div>
-                                          <blockquote class="pbminfotech-testimonial-text">
-                                             <div>I appreciate your hospital really good environment and excellent
-                                                patient care. You are continuously handle patient treatment wonderfully.
-                                                Thanks for your great service. Please enjoy the chocolates.</div>
-                                          </blockquote>
-                                       </div>
-                                       <div class="pbminfotech-author-wrapper d-flex align-items-center">
-                                          <div class="pbminfotech-box-img">
-                                             <div class="pbmit-featured-wrapper">
-                                                <img src="images/testimonial/testimonial-02.jpg" class="img-fluid"
-                                                   alt="testimonial 2" />
-                                             </div>
-                                          </div>
-                                          <div class="pbminfotech-box-author">
-                                             <h3 class="pbminfotech-box-title">Richard Powers</h3>
-                                             <div class="pbminfotech-testimonial-detail">Orthopedic</div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </article>
-                           </div>
-                           <div class="swiper-slide ">
-                              <!-- Slide3 -->
-                              <article class=" pbmit-testimonial-style-2 pbmit-odd pbmit-col-odd">
-                                 <div class="pbminfotech-post-item">
-                                    <div class="pbminfotech-box-content">
-                                       <div class="pbminfotech-box-desc">
-                                          <div class="pbminfotech-box-star-ratings">
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                          </div>
-                                          <blockquote class="pbminfotech-testimonial-text">
-                                             <div>I appreciate your hospital really good environment and excellent
-                                                patient care. You are continuously handle patient treatment wonderfully.
-                                                Thanks for your great service. Please enjoy the chocolates.</div>
-                                          </blockquote>
-                                       </div>
-                                       <div class="pbminfotech-author-wrapper d-flex align-items-center">
-                                          <div class="pbminfotech-box-img">
-                                             <div class="pbmit-featured-wrapper">
-                                                <img src="images/testimonial/testimonial-03.jpg" class="img-fluid"
-                                                   alt="testimonial 3" />
-                                             </div>
-                                          </div>
-                                          <div class="pbminfotech-box-author">
-                                             <h3 class="pbminfotech-box-title">Maria Rusconi</h3>
-                                             <div class="pbminfotech-testimonial-detail">Cardiology</div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </article>
-                           </div>
-                           <div class="swiper-slide ">
-                              <!-- Slide4 -->
-                              <article class="pbmit-testimonial-style-2 pbmit-odd pbmit-col-odd">
-                                 <div class="pbminfotech-post-item">
-                                    <div class="pbminfotech-box-content">
-                                       <div class="pbminfotech-box-desc">
-                                          <div class="pbminfotech-box-star-ratings">
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                          </div>
-                                          <blockquote class="pbminfotech-testimonial-text">
-                                             <div>I appreciate your hospital really good environment and excellent
-                                                patient care. You are continuously handle patient treatment wonderfully.
-                                                Thanks for your great service. Please enjoy the chocolates.</div>
-                                          </blockquote>
-                                       </div>
-                                       <div class="pbminfotech-author-wrapper d-flex align-items-center">
-                                          <div class="pbminfotech-box-img">
-                                             <div class="pbmit-featured-wrapper">
-                                                <img src="images/testimonial/testimonial-04.jpg" class="img-fluid"
-                                                   alt="testimonial 4" />
-                                             </div>
-                                          </div>
-                                          <div class="pbminfotech-box-author">
-                                             <h3 class="pbminfotech-box-title">Striven Porter</h3>
-                                             <div class="pbminfotech-testimonial-detail">Pulmonology</div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </article>
-                           </div>
-                           <div class="swiper-slide ">
-                              <!-- Slide5 -->
-                              <article class="pbmit-testimonial-style-2 pbmit-odd pbmit-col-odd">
-                                 <div class="pbminfotech-post-item">
-                                    <div class="pbminfotech-box-content">
-                                       <div class="pbminfotech-box-desc">
-                                          <div class="pbminfotech-box-star-ratings">
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                          </div>
-                                          <blockquote class="pbminfotech-testimonial-text">
-                                             <div>I appreciate your hospital really good environment and excellent
-                                                patient care. You are continuously handle patient treatment wonderfully.
-                                                Thanks for your great service. Please enjoy the chocolates.</div>
-                                          </blockquote>
-                                       </div>
-                                       <div class="pbminfotech-author-wrapper d-flex align-items-center">
-                                          <div class="pbminfotech-box-img">
-                                             <div class="pbmit-featured-wrapper">
-                                                <img src="images/testimonial/testimonial-05.jpg" class="img-fluid"
-                                                   alt="testimonial 5" />
-                                             </div>
-                                          </div>
-                                          <div class="pbminfotech-box-author">
-                                             <h3 class="pbminfotech-box-title">Elena Blackwell</h3>
-                                             <div class="pbminfotech-testimonial-detail">Dermatology</div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </article>
-                           </div>
-                           <div class="swiper-slide">
-                              <!-- Slide6 -->
-                              <article class="pbmit-testimonial-style-2 pbmit-odd pbmit-col-odd">
-                                 <div class="pbminfotech-post-item">
-                                    <div class="pbminfotech-box-content">
-                                       <div class="pbminfotech-box-desc">
-                                          <div class="pbminfotech-box-star-ratings">
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                             <i class="pbmit-base-icon-star pbmit-active"></i>
-                                          </div>
-                                          <blockquote class="pbminfotech-testimonial-text">
-                                             <div>I appreciate your hospital really good environment and excellent
-                                                patient care. You are continuously handle patient treatment wonderfully.
-                                                Thanks for your great service. Please enjoy the chocolates.</div>
-                                          </blockquote>
-                                       </div>
-                                       <div class="pbminfotech-author-wrapper d-flex align-items-center">
-                                          <div class="pbminfotech-box-img">
-                                             <div class="pbmit-featured-wrapper">
-                                                <img src="images/testimonial/testimonial-06.jpg" class="img-fluid"
-                                                   alt="testimonial 6" />
-                                             </div>
-                                          </div>
-                                          <div class="pbminfotech-box-author">
-                                             <h3 class="pbminfotech-box-title">Alex Margaret</h3>
-                                             <div class="pbminfotech-testimonial-detail">Neurology</div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </article>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <!-- Testimonial End -->
+                        }
+                    ],
+                    "answer": "Install the Vault Backup utility on a different machine from the Enterprise Password Vault server and trigger the full backup",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 72,
+                    "question": "Your organization requires all passwords be rotated every 90 days. Where can you set this requirement?",
+                    "options": [
+                        {
+                            "a": "PVWAConfig.xml",
+                            "b": "Master Policy",
+                            "c": "Platform Configuration",
+                            "d": "Safe Templates"
+                        }
+                    ],
+                    "answer": "Master Policy",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 73,
+                    "question": "When should vault keys be rotated?",
+                    "options": [
+                        {
+                            "a": "whenever a CyberArk user leaves the organization",
+                            "b": "when it is copied to file systems outside the vault",
+                            "c": "annually",
+                            "d": "when migrating to a new data center"
+                        }
+                    ],
+                    "answer": "when it is copied to file systems outside the vault",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 74,
+                    "question": "You are concerned about the Windows Domain password changes occurring during business hours Which settings must be updated to ensure passwords are only rotated outside of business hours?",
+                    "options": [
+                        {
+                            "a": "In the platform policy Automatic Password Management > Password Change > ToHour & FromHour",
+                            "b": "Administration Settings CPM Settings> ToHour & FromHour",
+                            "c": "On each individual account Edit> Advanced > ToHour & FromHour",
+                            "d": "In the Master Policy Account Change Window > ToHour & From Hour"
+                        }
+                    ],
+                    "answer": "In the platform policy Automatic Password Management > Password Change > ToHour & FromHour",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 75,
+                    "question": "The Active Directory User configured for Windows Discovery needs which permission(s) or membership?",
+                    "options": [
+                        {
+                            "a": "Read Only Permissions",
+                            "b": "Read and Write Permissions",
+                            "c": "Member of LDAP Admin Group",
+                            "d": "Member of Domain Admin Group"
+                        }
+                    ],
+                    "answer": "Read Only Permissions",
+                    "score": 0,
+                    "status": ""
+                },
 
 
-         <!-- Blog Start -->
-         <section class="section-lg">
-            <div class="container">
-               <div class="row align-items-center">
-                  <div class="col-md-6 pbmit-heading-subheading text-left">
-                     <h4 class="pbmit-subtitle">Keeping You Well.</h4>
-                     <h2 class="pbmit-element-title"> Stories, Tips & Latest News </h2>
-                  </div>
-                  <div class="col-md-6 text-md-end mb-5 mb-md-0">
-                     <a href="blog-grid.html" class="pbmit-btn">View All Blogs</a>
-                  </div>
-               </div>
-               <div class="row g-4">
-                  <div class="col-lg-12">
-                     <div class="row">
-                        <div class="col-md-3">
-                           <article class="pbmit-blog-style-1 heath-care pbmit-odd pbmit-col-odd">
-                              <div class="post-item">
-                                 <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-wrapper">
-                                       <img src="images/blog/blog-01.jpg" class="img-fluid" alt="blog" />
-                                    </div>
-                                 </div>
-                                 <div class="pbminfotech-box-content">
-                                    <h4 class="pbmit-post-title"><a href="blog-details.html">How to handle patient body
-                                          in MRI</a></h4>
-                                    <div class="pbminfotech-box-desc">
-                                       <div class="pbminfotech-box-desc-text">
-                                          We are provide excellent medical advices for your good health and we…
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </article>
-                        </div>
-                        <div class="col-md-3">
-                           <article class="pbmit-blog-style-1 heath-care pbmit-odd pbmit-col-odd">
-                              <div class="post-item">
-                                 <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-wrapper">
-                                       <img src="images/blog/blog-02.jpg" class="img-fluid" alt="blog" />
-                                    </div>
-                                 </div>
-                                 <div class="pbminfotech-box-content">
-                                    <h4 class="pbmit-post-title"><a href="blog-details.html">Diabetes & blood pressor
-                                          check up</a></h4>
-                                    <div class="pbminfotech-box-desc">
-                                       <div class="pbminfotech-box-desc-text">
-                                          We are provide excellent medical advices for your good health and we…
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </article>
-                        </div>
-                        <div class="col-md-3">
-                           <article class="pbmit-blog-style-1 heath-care pbmit-odd pbmit-col-odd">
-                              <div class="post-item">
-                                 <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-wrapper">
-                                       <img src="images/blog/blog-01.jpg" class="img-fluid" alt="blog" />
-                                    </div>
-                                 </div>
-                                 <div class="pbminfotech-box-content">
-                                    <h4 class="pbmit-post-title"><a href="blog-details.html">How to handle patient body
-                                          in MRI</a></h4>
-                                    <div class="pbminfotech-box-desc">
-                                       <div class="pbminfotech-box-desc-text">
-                                          We are provide excellent medical advices for your good health and we…
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </article>
-                        </div>
-                        <div class="col-md-3">
-                           <article class="pbmit-blog-style-1 heath-care pbmit-odd pbmit-col-odd">
-                              <div class="post-item">
-                                 <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-wrapper">
-                                       <img src="images/blog/blog-01.jpg" class="img-fluid" alt="blog" />
-                                    </div>
-                                 </div>
-                                 <div class="pbminfotech-box-content">
-                                    <h4 class="pbmit-post-title"><a href="blog-details.html">How to handle patient body
-                                          in MRI</a></h4>
-                                    <div class="pbminfotech-box-desc">
-                                       <div class="pbminfotech-box-desc-text">
-                                          We are provide excellent medical advices for your good health and we…
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </article>
-                        </div>
-                     </div>
-                  </div>
-
-               </div>
-            </div>
-         </section>
-         <!-- Blog End -->
-
-         <!-- Blog Start -->
-         <section class="section-lg" style=" background: #e9f0ff;">
-            <div class="container">
-               <div class="row align-items-center">
-                  <div class="col-md-6 pbmit-heading-subheading text-left">
-                     <h4 class="pbmit-subtitle">Products From</h4>
-                     <h2 class="pbmit-element-title"> The House of Doctors</h2>
-                  </div>
-                  <div class="col-md-6 text-md-end mb-5 mb-md-0">
-                     <a href="blog-grid.html" class="pbmit-btn">View All Products</a>
-                  </div>
-               </div>
-               <div class="row g-4">
-                  <div class="col-lg-12">
-                     <div class="row">
-                        <div class="col-md-3">
-                           <article class="pbmit-blog-style-1 heath-care pbmit-odd pbmit-col-odd product-card">
-                              <div class="post-item">
-                                 <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-wrapper">
-                                       <img src="https://www.drbatras.com/themes/drbatra/images/daily-care-shampoo.webp"
-                                          class="img-fluid" alt="blog" />
-                                    </div>
-                                 </div>
-                                 <div class="pbminfotech-box-content text-center">
-                                    <h4 class="pbmit-post-title" data-maxlength="40">Dr Batra’s<sup>®</sup>
-                                       PRO<sup>+</sup> Daily Care Shampoo</h4>
-                                    <div class="pbminfotech-box-desc">
-                                       <div class="pbminfotech-box-desc-text">
-                                          A Professional Shampoo that cleanses clogged hair follicles and the scalp
-                                          without stripping off the natural oils
-                                       </div>
-                                    </div>
-
-                                 </div>
-
-
-                              </div>
-                           </article>
-                        </div>
-                        <div class="col-md-3">
-                           <article class="pbmit-blog-style-1 heath-care pbmit-odd pbmit-col-odd product-card">
-                              <div class="post-item">
-                                 <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-wrapper">
-                                       <img src="https://www.drbatras.com/themes/drbatra/images/Dandruff-Shampoo.webp"
-                                          class="img-fluid" alt="blog" />
-                                    </div>
-                                 </div>
-                                 <div class="pbminfotech-box-content text-center">
-                                    <h4 class="pbmit-post-title"><a href="blog-details.html">Dr Batra’s<sup>®</sup>
-                                          PRO<sup>+</sup> Dandruff Clear Shampoo</a></h4>
-                                    <div class="pbminfotech-box-desc">
-                                       <div class="pbminfotech-box-desc-text">
-                                          A Professional shampoo that visibly reduces dandruff, relieves itching,
-                                          moisturizes & nourishes the scalp.
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </article>
-                        </div>
-                        <div class="col-md-3 ">
-                           <article class="pbmit-blog-style-1 heath-care pbmit-odd pbmit-col-odd product-card">
-                              <div class="post-item">
-                                 <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-wrapper">
-                                       <img
-                                          src="https://www.drbatras.com/themes/drbatra/images/Hair-fall-control-oil.webp"
-                                          class="img-fluid" alt="blog" />
-                                    </div>
-                                 </div>
-                                 <div class="pbminfotech-box-content text-center">
-                                    <h4 class="pbmit-post-title"><a href="blog-details.html">Dr Batra’s<sup>®</sup>
-                                          PRO<sup>+</sup> Hair Fall Control</a></h4>
-                                    <div class="pbminfotech-box-desc">
-                                       <div class="pbminfotech-box-desc-text">
-                                          Non-sticky formula nourishes hair follicles to boost hair growth, leaving hair
-                                          stronger from the inside and shinier on the outside
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </article>
-                        </div>
-                        <div class="col-md-3 ">
-                           <article class="pbmit-blog-style-1 heath-care pbmit-odd pbmit-col-odd product-card">
-                              <div class="post-item">
-                                 <div class="pbmit-featured-container">
-                                    <div class="pbmit-featured-wrapper">
-                                       <img
-                                          src="https://www.drbatras.com/themes/drbatra/images/Hair-fall-control-shampoo.webp"
-                                          class="img-fluid" alt="blog" />
-                                    </div>
-                                 </div>
-                                 <div class="pbminfotech-box-content text-center">
-                                    <h4 class="pbmit-post-title"><a href="blog-details.html">Dr Batra’s<sup>®</sup>
-                                          PRO<sup>+</sup> Hair Fall Control </a></h4>
-                                    <div class="pbminfotech-box-desc">
-                                       <div class="pbminfotech-box-desc-text">
-                                          A Professional Shampoo that reduces hair fall, improves hair texture and
-                                          maintains the pH balance of the scalp, leaving the hair nourished and strong
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </article>
-                        </div>
-                     </div>
-                  </div>
-
-               </div>
-            </div>
-         </section>
-         <!-- Blog End -->
+            ]
+        }
 
 
 
-      </div>
-      <!-- Page Content End -->
+        var quizApp = function () {
 
-      <!-- footer -->
-      <footer class="footer site-footer">
-         <div class="pbmit-footer-big-area">
-            <div class="container">
-               <div class="row d-flex align-items-center">
-                  <div class="col-md-4">
-                     <div class="pbmit-footer-contact-info-inner d-flex align-items-center">
-                        <i class="pbmit-doctery-icon pbmit-doctery-icon-map"></i>
-                        <span class="pbmit-footer-contact-info-wrap">
-                           <span class="pbmit-label pbmit-label-1"> Address</span>
-                           Indore M.P
-                        </span>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="pbmit-footer-contact-info-inner d-flex align-items-center">
-                        <i class="pbmit-doctery-icon pbmit-doctery-icon-headphones"></i>
-                        <span class="pbmit-footer-contact-info-wrap">
-                           <span class="pbmit-label pbmit-label-1">24 X 7 online support</span>
-                           <a href="https://doctery-demo.pbminfotech.com/cdn-cgi/l/email-protection"
-                              class="__cf_email__"
-                              data-cfemail="244d4a424b64404b475041565d0a474b49">[email&#160;protected]</a>
-                        </span>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="pbmit-footer-contact-info-inner d-flex align-items-center">
-                        <i class="pbmit-doctery-icon pbmit-doctery-icon-emergency-call"></i>
-                        <span class="pbmit-footer-contact-info-wrap">
-                           <span class="pbmit-label pbmit-label-1">Contact Us Free</span>
-                           +1 (088) 456 888
-                        </span>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="pbmit-footer-widget-area">
-            <div class="container">
-               <div class="row">
-                  <div class=" col-sm-12 col-md-3 col-lg-3">
-                     <div class="widget">
-                        <h3 class="widget-title">Our Services</h3>
-                        <ul class="list-unstyled footer-link-list">
-                           <li><a href="#">About Us</a></li>
-                           <li><a href="#">Customer</a></li>
-                           <li><a href="#">Service</a></li>
-                           <li><a href="#">Collections</a></li>
-                           <li><a href="#">Best Seller</a></li>
-                           <li><a href="#">Careers</a></li>
-                           <li><a href="#">Privacy Policy</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-sm-12 col-md-6 col-lg-6">
-                     <div class="pbmit-two-widget">
-                        <div class="widget">
-                           <h3 class="widget-title text-center text-sm-left">Sign Up To Get Latest Updates</h3>
-                           <form class="input-group input-group">
-                              <input type="email" id="subscr-email" class="form-control"
-                                 placeholder="Your email address" required="">
-                              <button type="submit" class="pbmit-btn">Subscribe</button>
-                           </form>
-                        </div>
-                        <div class="widget footer-social-links">
-                           <h3 class="widget-title text-center">Follow on socials</h3>
-                           <ul class="pbmit-social-links nav justify-content-center">
-                              <li><a href="#" target="_blank"><span><i
-                                          class="pbmit-base-icon-facebook-squared"></i></span></a></li>
-                              <li><a href="#" target="_blank"><span><i class="pbmit-base-icon-twitter"></i></span></a>
-                              </li>
-                              <li><a href="#" target="_blank"><span><i
-                                          class="pbmit-base-icon-linkedin-squared"></i></span></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-sm-12 col-md-3 col-lg-3">
-                     <div class="widget">
-                        <h3 class="widget-title">Opening Hours</h3>
-                        <ul class="pbmit-timelist-list">
-                           <li><span class="pbmit-timelist-li-title">Mon – Tues</span><span
-                                 class="pbmit-timelist-li-value">08:00 AM – 05:00PM</span></li>
-                           <li><span class="pbmit-timelist-li-title">Wedne – Thur</span><span
-                                 class="pbmit-timelist-li-value">09:00 AM – 06:00PM</span></li>
-                           <li><span class="pbmit-timelist-li-title">Fri – Sat</span><span
-                                 class="pbmit-timelist-li-value">10:00 AM – 05:00PM</span></li>
-                           <li><span class="pbmit-timelist-li-title">sunday</span><span
-                                 class="pbmit-timelist-li-value">Emergency Only</span></li>
-                           <li><span class="pbmit-timelist-li-title">Personal</span><span
-                                 class="pbmit-timelist-li-value">Mon – 10:00 AM</span></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="pbmit-footer-text-area">
-            <div class="container">
-               <div class="row">
-                  <div class="col-12 text-center">
-                     Copyright © 2022 Modernhomeo All Rights Reserved.
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <!-- footer End -->
-   </div>
+            this.score = 0;
+            this.qno = 1;
+            this.currentque = 0;
+            var totalque = quiz.JS.length;
 
 
-   <!-- page wrapper End -->
-   <!-- JS
-         ============================================ -->
-   <!-- jQuery JS -->
-   <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-   <script src="js/jquery.min.js"></script>
-   <!-- Popper JS -->
-   <script src="js/popper.min.js"></script>
-   <!-- Bootstrap JS -->
-   <script src="js/bootstrap.min.js"></script>
-   <!-- jquery Waypoints JS -->
-   <script src="js/jquery.waypoints.min.js"></script>
-   <!-- jquery Appear JS -->
-   <script src="js/jquery.appear.js"></script>
-   <!-- Numinate JS -->
-   <script src="js/numinate.min.js"></script>
-   <!-- Slick JS -->
-   <script src="js/swiper.min.js"></script>
-   <!-- Magnific JS -->
-   <script src="js/jquery.magnific-popup.min.js"></script>
-   <!-- Circle Progress JS -->
-   <script src="js/circle-progress.js"></script>
-   <!-- AOS -->
-   <script src="js/aos.js"></script>
-   <!-- Scripts JS -->
-   <script src="js/scripts.js"></script>
-   <!-- Revolution JS -->
-   <script src="revolution/rslider.js"></script>
-   <script src="revolution/rbtools.min.js"></script>
-   <script src="revolution/rs6.min.js"></script>
+            this.displayQuiz = function (cque) {
+                this.currentque = cque;
+                if (this.currentque < totalque) {
+                    $("#tque").html(totalque);
+                    $("#previous").attr("disabled", false);
+                    $("#next").attr("disabled", false);
+                    $("#qid").html(quiz.JS[this.currentque].id + '.');
+
+
+                    $("#question").html(quiz.JS[this.currentque].question);
+                    $("#question-options").html("");
+                    for (var key in quiz.JS[this.currentque].options[0]) {
+                        if (quiz.JS[this.currentque].options[0].hasOwnProperty(key)) {
+
+                            $("#question-options").append(
+                                "<div class='form-check option-block'>" +
+                                "<label class='form-check-label'>" +
+                                "<input type='radio' class='form-check-input' name='option'   id='q" + key + "' value='" + quiz.JS[this.currentque].options[0][key] + "'><span id='optionval'>" +
+                                quiz.JS[this.currentque].options[0][key] +
+                                "</span></label>"
+                            );
+                        }
+                    }
+                }
+                if (this.currentque <= 0) {
+                    $("#previous").attr("disabled", true);
+                }
+                if (this.currentque >= totalque) {
+                    $('#next').attr('disabled', true);
+                    for (var i = 0; i < totalque; i++) {
+                        this.score = this.score + quiz.JS[i].score;
+                    }
+                    return this.showResult(this.score);
+                }
+            }
+
+            this.showResult = function (scr) {
+                $("#result").addClass('result');
+                $("#result").html("<h4 class='res-header'>Total Score: &nbsp;" + scr + '/' + totalque + "</h4>");
+                for (var j = 0; j < totalque; j++) {
+                    var res;
+                    if (quiz.JS[j].score == 0) {
+                        res = '<span class="wrong">' + quiz.JS[j].score + '</span><i class="fa fa-remove c-wrong"></i>';
+                    } else {
+                        res = '<span class="correct">' + quiz.JS[j].score + '</span><i class="fa fa-check c-correct"></i>';
+                    }
+                    $("#result").append(
+                        '<div class="result-question"><span>Q ' + quiz.JS[j].id + '</span> &nbsp;' + quiz.JS[j].question + '</div>' +
+                        '<div><b>Correct answer:</b> &nbsp;' + quiz.JS[j].answer + '</div>' +
+                        '<div class="last-row"><b>Score:</b> &nbsp;' + res +
+
+                        '</div>'
+
+                    );
+
+                }
+            }
+
+            this.checkAnswer = function (option) {
+                var answer = quiz.JS[this.currentque].answer;
+                option = option.replace(/\</g, "&lt;")   //for <
+                option = option.replace(/\>/g, "&gt;")   //for >
+                option = option.replace(/"/g, "&quot;")
+
+                if (option == quiz.JS[this.currentque].answer) {
+                    if (quiz.JS[this.currentque].score == "") {
+                        quiz.JS[this.currentque].score = 1;
+                        quiz.JS[this.currentque].status = "correct";
+                    }
+                } else {
+                    quiz.JS[this.currentque].status = "wrong";
+                }
+
+            }
+
+            this.changeQuestion = function (cque) {
+                this.currentque = this.currentque + cque;
+                this.displayQuiz(this.currentque);
+
+            }
+
+        }
+
+
+        var jsq = new quizApp();
+
+        var selectedopt;
+        $(document).ready(function () {
+            jsq.displayQuiz(0);
+
+            $('#question-options').on('change', 'input[type=radio][name=option]', function (e) {
+
+                //var radio = $(this).find('input:radio');
+                $(this).prop("checked", true);
+                selectedopt = $(this).val();
+            });
+       });
+
+
+
+
+        $('#next').click(function (e) {
+            e.preventDefault();
+            if (selectedopt) {
+                jsq.checkAnswer(selectedopt);
+            }
+            jsq.changeQuestion(1);
+        });
+
+        $('#previous').click(function (e) {
+            e.preventDefault();
+            if (selectedopt) {
+                jsq.checkAnswer(selectedopt);
+            }
+            jsq.changeQuestion(-1);
+        });
+
+
+
+
+    </script>
+
+    <script>
+        var timeInSecs;
+            var ticker;
+
+            function startTimer(secs) {
+            timeInSecs = parseInt(secs);
+            ticker = setInterval("tick()", 1000); 
+            }
+
+            function tick( ) {
+            var secs = timeInSecs;
+            if (secs > 0) {
+            timeInSecs--; 
+            }
+            else {
+            clearInterval(ticker);
+            startTimer(45*60); // 4 minutes in seconds
+            }
+
+            var mins = Math.floor(secs/60);
+            secs %= 60;
+            var pretty = ( (mins < 10) ? "0" : "" ) + mins + ":" + ( (secs < 10) ? "0" : "" ) + secs;
+
+            document.getElementById("countdown").innerHTML = pretty;
+            }
+
+            startTimer(45*60); // 4 minutes in seconds
+
+            //Credits to Gulzaib from Pakistan
+    </script>
 </body>
 
 </html>

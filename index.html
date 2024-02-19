@@ -202,157 +202,157 @@
             "JS": [
                 {
                     "id": 1,
-                    "question": "Which Configuration file is used by the CPM scanner when scanning UNIX/Linux devices?",
+                    "question": "In which con guration le do you add LoadBalancerClientAddressHeader when you enable x-forwarding on the PVWA loadbalancer?",
                     "options": [
                         {
-                            "a": "UnixPrompts.ini",
-                            "b": "Plink.exe",
-                            "c": "Dbparm.ini",
-                            "d": "UnixScanner.ini"
+                            "a": "web.con g",
+                            "b": "apigw.ini",
+                            "c": "PVcon guration.xml",
+                            "d": "CyberArkScheduledTasks.exe.con g"
                         }
                     ],
-                    "answer": "UnixPrompts.ini",
+                    "answer": "web.con g",
                     "score": 0,
                     "status": ""
                 },
                 {
                     "id": 2,
-                    "question": "If PTA is integrated with a supported SIEM solution, which detection becomes available? ",
+                    "question": "You are con guring SNMP remote monitoring for your organization’s Vault servers. In the PARAgent.ini, which parameter speci es the destination of the Vault SNMP traps?",
                     "options": [
                         {
-                            "a": "Unmanaged privileged account",
-                            "b": "Privileged access to the Vault during irregular days",
-                            "c": "riskySPN",
-                            "d": "exposed credentials"
+                            "a": "SNMPVersion",
+                            "b": "SNMPCommunity",
+                            "c": "SNMPTrapPort",
+                            "d": "SNMPHostIP"
                         }
                     ],
-                    "answer": "Unmanaged privileged account",
+                    "answer": "SNMPTrapPort",
                     "score": 0,
                     "status": ""
                 },
                 {
                     "id": 3,
-                    "question": "What is required to enable access over SSH to a Unix account through both PSM & PSMP?  ",
+                    "question": "You want to improve performance on the CPM by restricting accounts for the CYBRWINDAD platform to only the WINDEMEA and WINDEMEA_Admin safes. How do you set this in CyberArk?",
                     "options": [
                         {
-                            "a": "PSM & PSMP must already have stored the SSH Fingerprint for the Unix host",
-                            "b": "The platform must contain connection components for PSM-SSH and PSMP-SSH",
-                            "c": "The ‘Enable PSMP’ setting in the Unix platform must be set to yes",
-                            "d": "A duplicate platform (Called &lt;PlatformName-PSMP&gt;) with the PSMP settings must be created"
+                            "a": "In the CYBRWINDAD platform, under Automatic Password Management/General, con gure AllowedSafes and set to (WINDEMEA)| (WINDEMEA_ADMIN).",
+                            "b": "In the CYBRWINDAD platform, under UI&Work ows/Properties/Optional, con gure AllowedSafes and set to (WINDEMEA)| (WINDEMEA_ADMIN).",
+                            "c": "In the settings for Con guration/CPM assigned to the WINDEMEA and WINDEMEAADMIN safes, con gure AllowedSafes and set to (WINDEMEA)|(WINDEMEAADMIN).",
+                            "d": "Modify cpm.ini on the relevant CPM/s and add the setting AllowedSafesCYBRWINDAD and set to (WINDEMEA)|(WINDEMEAADMIN)."
                         }
                     ],
-                    "answer": "The platform must contain connection components for PSM-SSH and PSMP-SSH",
+                    "answer": "Modify cpm.ini on the relevant CPM/s and add the setting AllowedSafesCYBRWINDAD and set to (WINDEMEA)|(WINDEMEAADMIN).",
                     "score": 0,
                     "status": ""
                 },
                 {
                     "id": 4,
-                    "question": "What does the Export Vault Data (EVD) utility do?",
+                    "question": "Before the hardening process, your customer identi ed a PSM Universal Connector executable that will be required to run on the PSM. Which le should you update to allow this to run?",
                     "options": [
                         {
-                            "a": "Generated a backup file that can be used as a cold backup",
-                            "b": "Exports all passwords and imports them into another instance of CyberArk",
-                            "c": "Keeps two active vaults in sync",
-                            "d": "Exports data from the Vault to TXT or CSV files, or to MSSQL databases"
+                            "a": "PSMCon gureAppLocker.xml",
+                            "b": "PSMAppCon g.xml",
+                            "c": "PSMHardening.xml",
+                            "d": "PSMCon gureHardening.xml"
                         }
                     ],
-                    "answer": "Exports data from the Vault to TXT or CSV files, or to MSSQL databases",
+                    "answer": "PSMCon gureHardening.xml",
                     "score": 0,
                     "status": ""
                 },
                 {
                     "id": 5,
-                    "question": "In the PrivateArk client under the Tools menu&gt; Administrator Tools&gt; Users and Groups, which option do you use to update users Vault group memberships?",
+                    "question": "How should you con gure PSM for SSH to support load balancing?",
                     "options": [
                         {
-                            "a": "Update&gt;Group tab",
-                            "b": "Update&gt;Member of tab",
-                            "c": "Update&gt;Authorization tab",
-                            "d": "Update&gt;General tab"
+                            "a": "in PVWA > Options > PSM for SSH Proxy > Servers > VIP",
+                            "b": "by using a network load balancer",
+                            "c": "by editing sshd.con g on the all the PSM for SSH servers",
+                            "d": "in PVWA > Options > PSM for SSH Proxy > Servers"
                         }
                     ],
-                    "answer": "Update&gt;Member of tab",
+                    "answer": "in PVWA > Options > PSM for SSH Proxy > Servers > VIP",
                     "score": 0,
                     "status": ""
                 },
                 {
                     "id": 6,
-                    "question": "Which change could CyberArk make to the REST API that could cause existing scripts to fail?",
+                    "question": "In which con guration le on the Vault can lters be con gured to either include or exclude log messages that are sent through SNMP?",
                     "options": [
                         {
-                            "a": "Removing parameters",
-                            "b": "Adding optional parameters in the request",
-                            "c": "Adding additional REST methods",
-                            "d": "Returning additional values in the response"
+                            "a": "DBParm.ini",
+                            "b": "PARAgent.ini",
+                            "c": "TSParm.ini",
+                            "d": "CyberArkv2 MIB le"
                         }
                     ],
-                    "answer": "Removing parameters",
+                    "answer": "PARAgent.ini",
                     "score": 0,
                     "status": ""
                 },
 
                 {
-                    "id": 8,
-                    "question": "You need to enable the PSM for all the platforms. Where do you perform the task?",
+                    "id": 7,
+                    "question": "A rst PSM server has been installed. What should you con rm before installing any additional PSM servers?",
                     "options": [
                         {
-                            "a": "Platform Management&gt; (Platform)&gt;UI & Workflows",
-                            "b": "Master Policy&gt; Session Management",
-                            "c": "Master Policy&gt;Privileged Access Workflows",
-                            "d": "Administration&gt; Options&gt; Connection Components"
+                            "a": "The PSM ID of the rst installed PSM server was changed and the additional PSM server can use the same PSM ID.",
+                            "b": "The user performing the installation is a direct owner in the PSMUnmanagedSessionAccounts Safe, PSM safe and member of PVWAMonitor group.",
+                            "c": "The user performing the installation is not a direct owner in the PSMUnmanagedSessionAccounts Safe.",
+                            "d": "The path of the Recordings Folder must be different on all PSM installations."
                         }
                     ],
-                    "answer": "Master Policy&gt; Session Management",
+                    "answer": "The user performing the installation is a direct owner in the PSMUnmanagedSessionAccounts Safe, PSM safe and member of PVWAMonitor group.",
+                    "score": 0,
+                    "status": ""
+                },
+                {
+                    "id": 8,
+                    "question": "During the PSM installation process, Safes and a User are created. In addition to Add Safes, Add/Update Users, Reset Users’ Passwords, and Activate Users, which authorization(s) does the Vault user installing the PSM need to enable them to be successfully created?",
+                    "options": [
+                        {
+                            "a": "Manage Directory Mapping, Manage Vault File Categories",
+                            "b": "Manage Server File Categories",
+                            "c": "Manage Directory Mapping, Manage Server File Categories",
+                            "d": "Manage Vault File Categories"
+                        }
+                    ],
+                    "answer": "Manage Directory Mapping, Manage Vault File Categories",
                     "score": 0,
                     "status": ""
                 },
                 {
                     "id": 9,
-                    "question": "Which built-in report from the reports page in PVWA displays the number of days until a password is due to expire?",
+                    "question": "Your customer wants to store the Safes Data on Vault Drive D instead of Drive C. Which le should you edit?",
                     "options": [
                         {
-                            "a": "Privileged Accounts CPM Status",
-                            "b": "Activity Log",
-                            "c": "Privileged Accounts Compliance Status",
-                            "d": "Privileged Accounts Inventory"
+                            "a": "TSparm.ini",
+                            "b": "Vault.ini",
+                            "c": "DBparm.ini",
+                            "d": "user.ini"
                         }
                     ],
-                    "answer": "Privileged Accounts Compliance Status",
+                    "answer": "Vault.ini",
                     "score": 0,
                     "status": ""
                 },
                 {
                     "id": 10,
-                    "question": "When should vault keys be rotated?",
+                    "question": "What must you do to prepare a Windows server for PVWA installation?",
                     "options": [
                         {
-                            "a": "When it is copied to file systems outside the vault",
-                            "b": "Annually",
-                            "c": "Whenever a CyberArk user leaves the organization",
-                            "d": "When migrating to a new data centre"
+                            "a": "In the InstallationAutomation folder, run the PVWA_Prerequisites.ps1 le as an administrator in Powershell.",
+                            "b": "Install the PrivateArk client.",
+                            "c": "Verify the user performing the installation is Domain Administrator and has logon access to the Vault server.",
+                            "d": "Verify the user performing the installation is Domain Administrator and has logon access to the Vault server."
                         }
                     ],
-                    "answer": "When it is copied to file systems outside the vault",
+                    "answer": "In the InstallationAutomation folder, run the PVWA_Prerequisites.ps1 le as an administrator in Powershell.",
                     "score": 0,
                     "status": ""
                 },
                 {
                     "id": 11,
-                    "question": "Which master policy settings ensure non-repudiation?",
-                    "options": [
-                        {
-                            "a": "Required password verification every X days and enforce one-time password access",
-                            "b": "Enforce check-in/check-out exclusive access and enforce one-time password access.",
-                            "c": "Allow EPV transparent connections Click to Connect and enforce check-in check-out exclusive access.",
-                            "d": "Allow EPV transparent connections (‘Click to Connect’) and enforce one-time password access."
-                        }
-                    ],
-                    "answer": "Enforce check-in/check-out exclusive access and enforce one-time password access.",
-                    "score": 0,
-                    "status": ""
-                },
-                {
-                    "id": 12,
                     "question": "You have been asked to turn off the time access restrictions for a safe. Where is this setting found?",
                     "options": [
                         {
